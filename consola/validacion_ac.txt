@@ -1,0 +1,23 @@
+==============================================================================
+PRUEBA DE FLUJO DE CARGA AC (Newton-Raphson) - Garver (1970), Tablas VI y VII
+==============================================================================
+Plan evaluado: 6-2=4,6-4=2,3-5=1;  convergencia en 5 iteraciones (error final 4.09e-15 pu)
+Barra    Tipo   |V| pu   ang (°)      P MW    Q MVAr | |V| Garver ang Garver
+    1      PV    1.020    -31.42    -29.00     77.40 |       1.02      -31.4
+    2      PQ    0.964    -16.87   -240.00     -0.00 |       0.96      -16.9
+    3      PV    1.040    -26.59    128.30     95.98 |       1.04      -26.6
+    4      PQ    0.904    -17.27   -160.00    -40.00 |       0.90      -17.3
+    5      PQ    0.979    -37.29   -240.00     -0.00 |       0.98      -37.3
+    6  Vtheta    1.040      0.00    607.29    132.98 |       1.04        0.0
+
+  Rama       Tipo  n   P envio  P recibo  Perdidas  Carga %
+   1-2  existente  1    -52.96    -56.86      3.89     56.9
+   1-4  existente  1    -29.64    -32.37      2.72     40.5
+   1-5  existente  1     53.61     52.17      1.43     53.6
+   2-3  existente  1     72.80     68.74      4.06     72.8
+   2-4  existente  1      4.85      4.63      0.22      4.8
+   3-5  existente  1     98.52     93.91      4.61     98.5
+   6-2      nueva  4    403.37    374.50     28.86    100.8
+   6-4      nueva  2    203.92    187.73     16.19    102.0
+   3-5      nueva  1     98.52     93.91      4.61     98.5
+Perdidas totales: 66.59 MW;  generacion de la barra compensadora: 607.3 MW

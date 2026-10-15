@@ -1,0 +1,61 @@
+
+Gurobi 13.0.3 (win64, Python) logging started Tue Oct 13 17:18:22 2026
+
+Set parameter LogToConsole to value 0
+Set parameter Username
+Set parameter LicenseID to value 2858111
+Set parameter LogFile to value "C:\Users\andre\Documents\Octavo Semestre\Planeamiento de Sistemas de Potencia\Proyecto 3\Proyecto3_TNEP\codigo\resultados\sensibilidad\logs\milp_garver6_tnep_nmax_excel.log"
+Academic license - for non-commercial use only - expires 2027-08-27
+Set parameter MIPGap to value 0
+Set parameter TimeLimit to value 3600
+Gurobi Optimizer version 13.0.3 build v13.0.3rc0 (win64 - Windows 11+.0 (26200.2))
+
+CPU model: Intel(R) Core(TM) i7-14650HX, instruction set [SSE2|AVX|AVX2]
+Thread count: 16 physical cores, 24 logical processors, using up to 24 threads
+
+Non-default parameters:
+TimeLimit  3600
+MIPGap  0
+LogToConsole  0
+
+Optimize a model with 56 rows, 44 columns and 222 nonzeros (Min)
+Model fingerprint: 0xb0605cf4
+Model has 16 linear objective coefficients
+Variable types: 28 continuous, 16 integer (16 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+01]
+  Objective range  [1e+02, 9e+02]
+  Bounds range     [8e-01, 1e+00]
+  RHS range        [3e-01, 5e+00]
+
+Presolve removed 3 rows and 4 columns
+Presolve time: 0.00s
+Presolved: 53 rows, 40 columns, 212 nonzeros
+Variable types: 24 continuous, 16 integer (16 binary)
+
+Root relaxation: objective 8.839583e+02, 33 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0  883.95833    0    3          -  883.95833      -     -    0s
+H    0     0                    1150.0000000  883.95833  23.1%     -    0s
+     0     0  928.52215    0    4 1150.00000  928.52215  19.3%     -    0s
+H    0     0                    1000.0000000  928.52215  7.15%     -    0s
+
+Cutting planes:
+  Gomory: 5
+  Cover: 1
+  Implied bound: 1
+  MIR: 6
+  GUB cover: 1
+
+Explored 1 nodes (43 simplex iterations) in 0.04 seconds (0.00 work units)
+Thread count was 24 (of 24 available processors)
+
+Solution count 2: 1000 1150 
+
+Optimal solution found (tolerance 0.00e+00)
+Best objective 1.000000000000e+03, best bound 1.000000000000e+03, gap 0.0000%
+
+User-callback calls 412, time in user-callback 0.00 sec

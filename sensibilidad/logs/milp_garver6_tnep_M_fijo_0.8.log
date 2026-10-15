@@ -1,0 +1,63 @@
+
+Gurobi 13.0.3 (win64, Python) logging started Tue Oct 13 17:15:54 2026
+
+Set parameter LogToConsole to value 0
+Set parameter Username
+Set parameter LicenseID to value 2858111
+Set parameter LogFile to value "C:\Users\andre\Documents\Octavo Semestre\Planeamiento de Sistemas de Potencia\Proyecto 3\Proyecto3_TNEP\codigo\resultados\sensibilidad\logs\milp_garver6_tnep_M_fijo_0.8.log"
+Academic license - for non-commercial use only - expires 2027-08-27
+Set parameter MIPGap to value 0
+Set parameter TimeLimit to value 120
+Gurobi Optimizer version 13.0.3 build v13.0.3rc0 (win64 - Windows 11+.0 (26200.2))
+
+CPU model: Intel(R) Core(TM) i7-14650HX, instruction set [SSE2|AVX|AVX2]
+Thread count: 16 physical cores, 24 logical processors, using up to 24 threads
+
+Non-default parameters:
+TimeLimit  120
+MIPGap  0
+LogToConsole  0
+
+Optimize a model with 52 rows, 40 columns and 200 nonzeros (Min)
+Model fingerprint: 0xa081cd02
+Model has 14 linear objective coefficients
+Variable types: 26 continuous, 14 integer (14 binary)
+Coefficient statistics:
+  Matrix range     [8e-01, 2e+01]
+  Objective range  [1e+02, 9e+02]
+  Bounds range     [8e-01, 1e+00]
+  RHS range        [3e-01, 5e+00]
+
+Presolve removed 3 rows and 4 columns
+Presolve time: 0.00s
+Presolved: 49 rows, 36 columns, 190 nonzeros
+Variable types: 22 continuous, 14 integer (14 binary)
+Found heuristic solution: objective 1155.0000000
+
+Root relaxation: objective 8.868408e+02, 31 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0  886.84085    0    3 1155.00000  886.84085  23.2%     -    0s
+H    0     0                    1150.0000000  886.84085  22.9%     -    0s
+H    0     0                    1100.0000000  886.84085  19.4%     -    0s
+H    0     0                    1000.0000000  918.08961  8.19%     -    0s
+     0     0  972.03526    0    5 1000.00000  972.03526  2.80%     -    0s
+
+Cutting planes:
+  Gomory: 1
+  Cover: 2
+  Implied bound: 1
+  MIR: 5
+  GUB cover: 1
+
+Explored 1 nodes (41 simplex iterations) in 0.01 seconds (0.00 work units)
+Thread count was 24 (of 24 available processors)
+
+Solution count 4: 1000 1100 1150 1155 
+
+Optimal solution found (tolerance 0.00e+00)
+Best objective 1.000000000000e+03, best bound 1.000000000000e+03, gap 0.0000%
+
+User-callback calls 411, time in user-callback 0.00 sec

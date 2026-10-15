@@ -1,0 +1,203 @@
+{
+  "metodo": "MILP_bigM",
+  "sistema": "Garver 6 barras - 4 corredores (TNEP.pdf)",
+  "archivo": "C:\\Users\\andre\\Documents\\Octavo Semestre\\Planeamiento de Sistemas de Potencia\\Proyecto 3\\Proyecto3_TNEP\\codigo\\datos\\garver6_tnep.xlsx",
+  "estado": "OPTIMO",
+  "estadisticas": {
+    "variables": 40,
+    "enteras": 14,
+    "binarias": 14,
+    "restricciones": 52,
+    "restr_cuadraticas": 0,
+    "no_ceros": 200,
+    "tiempo_s": 0.007999897003173828,
+    "estado": 2,
+    "iteraciones_simplex": 41.0,
+    "nodos": 1.0,
+    "brecha": 0.0,
+    "cota": 1000.0
+  },
+  "convergencia": [
+    [
+      0.0019998550415039062,
+      null,
+      0.0,
+      0.0
+    ],
+    [
+      0.0019998550415039062,
+      1155.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0019998550415039062,
+      1155.0,
+      885.0,
+      0.0
+    ],
+    [
+      0.00599980354309082,
+      1100.0,
+      910.0,
+      0.0
+    ],
+    [
+      0.00599980354309082,
+      1000.0,
+      985.0,
+      0.0
+    ]
+  ],
+  "corredores": [
+    "6-2",
+    "6-4",
+    "6-5",
+    "3-5"
+  ],
+  "unidad": "pu",
+  "bigM": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ],
+  "bigM_origen": [
+    "fijo",
+    "fijo",
+    "fijo",
+    "fijo"
+  ],
+  "bigM_modo": "fijo",
+  "nmax": [
+    4,
+    4,
+    3,
+    3
+  ],
+  "plan": [
+    4,
+    2,
+    0,
+    1
+  ],
+  "plan_texto": "n62=4, n64=2, n35=1",
+  "w_activas": [
+    "w624",
+    "w642",
+    "w351"
+  ],
+  "costo": 1000.0,
+  "objetivo": 1000.0,
+  "cota": 1000.0,
+  "brecha": 0.0,
+  "theta": [
+    0.10599816007359707,
+    0.3110027598896044,
+    0.18700091996320148,
+    0.2964857405703772,
+    0.0,
+    0.578663753449862
+  ],
+  "dtheta": {
+    "6-2_1": 0.0,
+    "6-2_2": 0.0,
+    "6-2_3": 0.0,
+    "6-2_4": 0.26766099356025763,
+    "6-4_1": 0.0,
+    "6-4_2": 0.2821780128794848,
+    "6-4_3": 0.0,
+    "6-4_4": 0.0,
+    "6-5_1": 0.0,
+    "6-5_2": 0.0,
+    "6-5_3": 0.0,
+    "3-5_1": 0.18700091996320148,
+    "3-5_2": 0.0,
+    "3-5_3": 0.0
+  },
+  "apertura_no_construidos": [
+    {
+      "corredor": "6-5",
+      "apertura": 0.578663753449862,
+      "M": 1.0,
+      "activa": false
+    }
+  ],
+  "M_activa": [],
+  "factible_dc": true,
+  "mensajes_dc": [],
+  "theta_dc": [
+    0.10599816007359707,
+    0.3110027598896045,
+    0.18700091996320148,
+    0.2964857405703772,
+    0.0,
+    0.5786637534498621
+  ],
+  "flujos_dc": [
+    {
+      "etiqueta": "1-2",
+      "tipo": "existente",
+      "n": 1,
+      "flujo_MW": -51.25114995400186,
+      "carga": 0.5125114995400186
+    },
+    {
+      "etiqueta": "1-4",
+      "tipo": "existente",
+      "n": 1,
+      "flujo_MW": -31.74793008279669,
+      "carga": 0.3968491260349586
+    },
+    {
+      "etiqueta": "1-5",
+      "tipo": "existente",
+      "n": 1,
+      "flujo_MW": 52.99908003679853,
+      "carga": 0.5299908003679853
+    },
+    {
+      "etiqueta": "2-3",
+      "tipo": "existente",
+      "n": 1,
+      "flujo_MW": 62.00091996320152,
+      "carga": 0.6200091996320152
+    },
+    {
+      "etiqueta": "2-4",
+      "tipo": "existente",
+      "n": 1,
+      "flujo_MW": 3.6292548298068326,
+      "carga": 0.03629254829806833
+    },
+    {
+      "etiqueta": "3-5",
+      "tipo": "existente",
+      "n": 1,
+      "flujo_MW": 93.50045998160074,
+      "carga": 0.9350045998160074
+    },
+    {
+      "etiqueta": "6-2",
+      "tipo": "nueva",
+      "n": 4,
+      "flujo_MW": 356.8813247470101,
+      "carga": 0.8922033118675253
+    },
+    {
+      "etiqueta": "6-4",
+      "tipo": "nueva",
+      "n": 2,
+      "flujo_MW": 188.11867525298996,
+      "carga": 0.9405933762649498
+    },
+    {
+      "etiqueta": "3-5",
+      "tipo": "nueva",
+      "n": 1,
+      "flujo_MW": 93.50045998160074,
+      "carga": 0.9350045998160074
+    }
+  ],
+  "perdidas_MW": 49.97562579013518
+}

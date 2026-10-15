@@ -1,0 +1,828 @@
+
+Gurobi 13.0.3 (win64, Python) logging started Tue Oct 13 17:18:43 2026
+
+Set parameter LogToConsole to value 0
+Set parameter Username
+Set parameter LicenseID to value 2858111
+Set parameter LogFile to value "C:\Users\andre\Documents\Octavo Semestre\Planeamiento de Sistemas de Potencia\Proyecto 3\Proyecto3_TNEP\codigo\resultados\sensibilidad\logs\lp_sur46_sin_redespacho.log"
+Academic license - for non-commercial use only - expires 2027-08-27
+Set parameter Method to value 0
+Gurobi Optimizer version 13.0.3 build v13.0.3rc0 (win64 - Windows 11+.0 (26200.2))
+
+CPU model: Intel(R) Core(TM) i7-14650HX, instruction set [SSE2|AVX|AVX2]
+Thread count: 16 physical cores, 24 logical processors, using up to 24 threads
+
+Non-default parameters:
+Method  0
+LogToConsole  0
+
+Optimize a model with 93 rows, 251 columns and 551 nonzeros (Min)
+Model fingerprint: 0xb2ff44ec
+Model has 158 linear objective coefficients
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+02]
+  Objective range  [4e-01, 8e+00]
+  Bounds range     [2e+00, 2e+01]
+  RHS range        [5e-01, 2e+01]
+
+Presolve removed 39 rows and 56 columns
+Presolve time: 0.00s
+Presolved: 54 rows, 195 columns, 452 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0   -2.0170144e+02   1.481011e+02   1.696707e+08      0s
+     110    8.1969628e+01   0.000000e+00   0.000000e+00      0s
+
+Solved in 110 iterations and 0.00 seconds (0.00 work units)
+Optimal objective  8.196962771e+01
+Set parameter Method to value 0
+Gurobi Optimizer version 13.0.3 build v13.0.3rc0 (win64 - Windows 11+.0 (26200.2))
+
+CPU model: Intel(R) Core(TM) i7-14650HX, instruction set [SSE2|AVX|AVX2]
+Thread count: 16 physical cores, 24 logical processors, using up to 24 threads
+
+Non-default parameters:
+Method  0
+LogToConsole  0
+
+Optimize a model with 94 rows, 252 columns and 556 nonzeros (Min)
+Model fingerprint: 0x894d793f
+Model has 158 linear objective coefficients
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+02]
+  Objective range  [4e-01, 8e+00]
+  Bounds range     [2e+00, 2e+01]
+  RHS range        [5e-01, 2e+01]
+
+Presolve removed 39 rows and 56 columns
+Presolve time: 0.00s
+Presolved: 55 rows, 196 columns, 458 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0   -1.5317644e+03   7.855363e+02   4.328462e+08      0s
+      97    7.3791628e+01   0.000000e+00   0.000000e+00      0s
+
+Solved in 97 iterations and 0.00 seconds (0.00 work units)
+Optimal objective  7.379162771e+01
+Set parameter Method to value 0
+Gurobi Optimizer version 13.0.3 build v13.0.3rc0 (win64 - Windows 11+.0 (26200.2))
+
+CPU model: Intel(R) Core(TM) i7-14650HX, instruction set [SSE2|AVX|AVX2]
+Thread count: 16 physical cores, 24 logical processors, using up to 24 threads
+
+Non-default parameters:
+Method  0
+LogToConsole  0
+
+Optimize a model with 95 rows, 253 columns and 561 nonzeros (Min)
+Model fingerprint: 0xc3574679
+Model has 158 linear objective coefficients
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+02]
+  Objective range  [4e-01, 8e+00]
+  Bounds range     [2e+00, 2e+01]
+  RHS range        [5e-01, 2e+01]
+
+Presolve removed 39 rows and 54 columns
+Presolve time: 0.00s
+Presolved: 56 rows, 199 columns, 464 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0   -1.5399424e+03   7.885363e+02   4.358462e+08      0s
+     107    6.5613628e+01   0.000000e+00   0.000000e+00      0s
+
+Solved in 107 iterations and 0.00 seconds (0.00 work units)
+Optimal objective  6.561362771e+01
+Set parameter Method to value 0
+Gurobi Optimizer version 13.0.3 build v13.0.3rc0 (win64 - Windows 11+.0 (26200.2))
+
+CPU model: Intel(R) Core(TM) i7-14650HX, instruction set [SSE2|AVX|AVX2]
+Thread count: 16 physical cores, 24 logical processors, using up to 24 threads
+
+Non-default parameters:
+Method  0
+LogToConsole  0
+
+Optimize a model with 96 rows, 254 columns and 566 nonzeros (Min)
+Model fingerprint: 0xfe39f158
+Model has 158 linear objective coefficients
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+02]
+  Objective range  [4e-01, 8e+00]
+  Bounds range     [2e+00, 2e+01]
+  RHS range        [5e-01, 2e+01]
+
+Presolve removed 40 rows and 55 columns
+Presolve time: 0.00s
+Presolved: 56 rows, 199 columns, 464 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0   -1.5347572e+03   7.900363e+02   4.362730e+08      0s
+     114    5.7435628e+01   0.000000e+00   0.000000e+00      0s
+
+Solved in 114 iterations and 0.00 seconds (0.00 work units)
+Optimal objective  5.743562771e+01
+Set parameter Method to value 0
+Gurobi Optimizer version 13.0.3 build v13.0.3rc0 (win64 - Windows 11+.0 (26200.2))
+
+CPU model: Intel(R) Core(TM) i7-14650HX, instruction set [SSE2|AVX|AVX2]
+Thread count: 16 physical cores, 24 logical processors, using up to 24 threads
+
+Non-default parameters:
+Method  0
+LogToConsole  0
+
+Optimize a model with 97 rows, 255 columns and 571 nonzeros (Min)
+Model fingerprint: 0xe5e2dd04
+Model has 158 linear objective coefficients
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+02]
+  Objective range  [4e-01, 8e+00]
+  Bounds range     [2e+00, 2e+01]
+  RHS range        [5e-01, 2e+01]
+
+Presolve removed 41 rows and 55 columns
+Presolve time: 0.00s
+Presolved: 56 rows, 200 columns, 466 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0   -1.5034432e+03   6.384123e+02   3.940500e+08      0s
+     112    4.9721932e+01   0.000000e+00   0.000000e+00      0s
+
+Solved in 112 iterations and 0.00 seconds (0.00 work units)
+Optimal objective  4.972193176e+01
+Set parameter Method to value 0
+Gurobi Optimizer version 13.0.3 build v13.0.3rc0 (win64 - Windows 11+.0 (26200.2))
+
+CPU model: Intel(R) Core(TM) i7-14650HX, instruction set [SSE2|AVX|AVX2]
+Thread count: 16 physical cores, 24 logical processors, using up to 24 threads
+
+Non-default parameters:
+Method  0
+LogToConsole  0
+
+Optimize a model with 98 rows, 256 columns and 576 nonzeros (Min)
+Model fingerprint: 0x0b915af6
+Model has 158 linear objective coefficients
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+02]
+  Objective range  [4e-01, 8e+00]
+  Bounds range     [2e+00, 2e+01]
+  RHS range        [5e-01, 2e+01]
+
+Presolve removed 42 rows and 55 columns
+Presolve time: 0.00s
+Presolved: 56 rows, 201 columns, 468 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0   -1.5116212e+03   5.174465e+02   3.043354e+08      0s
+     100    4.3438862e+01   0.000000e+00   0.000000e+00      0s
+
+Solved in 100 iterations and 0.00 seconds (0.00 work units)
+Optimal objective  4.343886174e+01
+Set parameter Method to value 0
+Gurobi Optimizer version 13.0.3 build v13.0.3rc0 (win64 - Windows 11+.0 (26200.2))
+
+CPU model: Intel(R) Core(TM) i7-14650HX, instruction set [SSE2|AVX|AVX2]
+Thread count: 16 physical cores, 24 logical processors, using up to 24 threads
+
+Non-default parameters:
+Method  0
+LogToConsole  0
+
+Optimize a model with 99 rows, 257 columns and 581 nonzeros (Min)
+Model fingerprint: 0xe2758e58
+Model has 158 linear objective coefficients
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+02]
+  Objective range  [4e-01, 8e+00]
+  Bounds range     [2e+00, 2e+01]
+  RHS range        [5e-01, 2e+01]
+
+Presolve removed 43 rows and 56 columns
+Presolve time: 0.00s
+Presolved: 56 rows, 201 columns, 474 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0   -1.8895404e+02   1.846223e+02   1.728272e+08      0s
+      99    3.8265913e+01   0.000000e+00   0.000000e+00      0s
+
+Solved in 99 iterations and 0.00 seconds (0.00 work units)
+Optimal objective  3.826591256e+01
+Set parameter Method to value 0
+Gurobi Optimizer version 13.0.3 build v13.0.3rc0 (win64 - Windows 11+.0 (26200.2))
+
+CPU model: Intel(R) Core(TM) i7-14650HX, instruction set [SSE2|AVX|AVX2]
+Thread count: 16 physical cores, 24 logical processors, using up to 24 threads
+
+Non-default parameters:
+Method  0
+LogToConsole  0
+
+Optimize a model with 99 rows, 257 columns and 581 nonzeros (Min)
+Model fingerprint: 0xce2e0c0d
+Model has 158 linear objective coefficients
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+02]
+  Objective range  [4e-01, 8e+00]
+  Bounds range     [2e+00, 2e+01]
+  RHS range        [5e-01, 2e+01]
+
+Presolve removed 43 rows and 56 columns
+Presolve time: 0.00s
+Presolved: 56 rows, 201 columns, 474 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0   -2.4323456e+02   2.208593e+02   1.935599e+08      0s
+      87    3.1998243e+01   0.000000e+00   0.000000e+00      0s
+
+Solved in 87 iterations and 0.00 seconds (0.00 work units)
+Optimal objective  3.199824277e+01
+Set parameter Method to value 0
+Gurobi Optimizer version 13.0.3 build v13.0.3rc0 (win64 - Windows 11+.0 (26200.2))
+
+CPU model: Intel(R) Core(TM) i7-14650HX, instruction set [SSE2|AVX|AVX2]
+Thread count: 16 physical cores, 24 logical processors, using up to 24 threads
+
+Non-default parameters:
+Method  0
+LogToConsole  0
+
+Optimize a model with 100 rows, 258 columns and 586 nonzeros (Min)
+Model fingerprint: 0x3e4b5eb8
+Model has 158 linear objective coefficients
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+02]
+  Objective range  [4e-01, 8e+00]
+  Bounds range     [2e+00, 2e+01]
+  RHS range        [5e-01, 2e+01]
+
+Presolve removed 43 rows and 56 columns
+Presolve time: 0.00s
+Presolved: 57 rows, 202 columns, 483 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0   -2.6877546e+02   2.217682e+02   1.964337e+08      0s
+      98    1.6837793e+01   0.000000e+00   0.000000e+00      0s
+
+Solved in 98 iterations and 0.00 seconds (0.00 work units)
+Optimal objective  1.683779324e+01
+Set parameter Method to value 0
+Gurobi Optimizer version 13.0.3 build v13.0.3rc0 (win64 - Windows 11+.0 (26200.2))
+
+CPU model: Intel(R) Core(TM) i7-14650HX, instruction set [SSE2|AVX|AVX2]
+Thread count: 16 physical cores, 24 logical processors, using up to 24 threads
+
+Non-default parameters:
+Method  0
+LogToConsole  0
+
+Optimize a model with 101 rows, 259 columns and 591 nonzeros (Min)
+Model fingerprint: 0x7fec29ff
+Model has 158 linear objective coefficients
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+02]
+  Objective range  [4e-01, 8e+00]
+  Bounds range     [2e+00, 2e+01]
+  RHS range        [5e-01, 2e+01]
+
+Presolve removed 44 rows and 56 columns
+Presolve time: 0.00s
+Presolved: 57 rows, 203 columns, 485 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0   -2.7663327e+02   2.237860e+02   1.840950e+08      0s
+      98    1.4222684e+01   0.000000e+00   0.000000e+00      0s
+
+Solved in 98 iterations and 0.00 seconds (0.00 work units)
+Optimal objective  1.422268432e+01
+Set parameter Method to value 0
+Gurobi Optimizer version 13.0.3 build v13.0.3rc0 (win64 - Windows 11+.0 (26200.2))
+
+CPU model: Intel(R) Core(TM) i7-14650HX, instruction set [SSE2|AVX|AVX2]
+Thread count: 16 physical cores, 24 logical processors, using up to 24 threads
+
+Non-default parameters:
+Method  0
+LogToConsole  0
+
+Optimize a model with 102 rows, 260 columns and 596 nonzeros (Min)
+Model fingerprint: 0xfd4d6e9f
+Model has 158 linear objective coefficients
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+02]
+  Objective range  [4e-01, 8e+00]
+  Bounds range     [2e+00, 2e+01]
+  RHS range        [5e-01, 2e+01]
+
+Presolve removed 45 rows and 56 columns
+Presolve time: 0.00s
+Presolved: 57 rows, 204 columns, 487 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0   -2.2897895e+02   2.270290e+02   2.021837e+08      0s
+      97    1.1368749e+01   0.000000e+00   0.000000e+00      0s
+
+Solved in 97 iterations and 0.00 seconds (0.00 work units)
+Optimal objective  1.136874932e+01
+Set parameter Method to value 0
+Gurobi Optimizer version 13.0.3 build v13.0.3rc0 (win64 - Windows 11+.0 (26200.2))
+
+CPU model: Intel(R) Core(TM) i7-14650HX, instruction set [SSE2|AVX|AVX2]
+Thread count: 16 physical cores, 24 logical processors, using up to 24 threads
+
+Non-default parameters:
+Method  0
+LogToConsole  0
+
+Optimize a model with 102 rows, 260 columns and 596 nonzeros (Min)
+Model fingerprint: 0x397fe791
+Model has 158 linear objective coefficients
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+02]
+  Objective range  [4e-01, 8e+00]
+  Bounds range     [2e+00, 2e+01]
+  RHS range        [5e-01, 2e+01]
+
+Presolve removed 45 rows and 56 columns
+Presolve time: 0.00s
+Presolved: 57 rows, 204 columns, 487 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0   -1.0289641e+02   2.219148e+02   1.989047e+08      0s
+      88    8.1792437e+00   0.000000e+00   0.000000e+00      0s
+
+Solved in 88 iterations and 0.00 seconds (0.00 work units)
+Optimal objective  8.179243669e+00
+Set parameter Method to value 0
+Gurobi Optimizer version 13.0.3 build v13.0.3rc0 (win64 - Windows 11+.0 (26200.2))
+
+CPU model: Intel(R) Core(TM) i7-14650HX, instruction set [SSE2|AVX|AVX2]
+Thread count: 16 physical cores, 24 logical processors, using up to 24 threads
+
+Non-default parameters:
+Method  0
+LogToConsole  0
+
+Optimize a model with 103 rows, 261 columns and 601 nonzeros (Min)
+Model fingerprint: 0x3aba4764
+Model has 158 linear objective coefficients
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+02]
+  Objective range  [4e-01, 8e+00]
+  Bounds range     [2e+00, 2e+01]
+  RHS range        [5e-01, 2e+01]
+
+Presolve removed 45 rows and 56 columns
+Presolve time: 0.00s
+Presolved: 58 rows, 205 columns, 493 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0   -9.1162645e+01   2.268037e+02   1.714173e+08      0s
+      85    5.4870866e-02   0.000000e+00   0.000000e+00      0s
+
+Solved in 85 iterations and 0.00 seconds (0.00 work units)
+Optimal objective  5.487086557e-02
+Set parameter Method to value 0
+Gurobi Optimizer version 13.0.3 build v13.0.3rc0 (win64 - Windows 11+.0 (26200.2))
+
+CPU model: Intel(R) Core(TM) i7-14650HX, instruction set [SSE2|AVX|AVX2]
+Thread count: 16 physical cores, 24 logical processors, using up to 24 threads
+
+Non-default parameters:
+Method  0
+LogToConsole  0
+
+Optimize a model with 103 rows, 261 columns and 601 nonzeros (Min)
+Model fingerprint: 0x09562ccd
+Model has 158 linear objective coefficients
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+02]
+  Objective range  [4e-01, 8e+00]
+  Bounds range     [2e+00, 2e+01]
+  RHS range        [5e-01, 2e+01]
+
+Presolve removed 45 rows and 56 columns
+Presolve time: 0.00s
+Presolved: 58 rows, 205 columns, 493 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0   -2.3494345e+01   2.289948e+02   1.857102e+08      0s
+     108    0.0000000e+00   0.000000e+00   0.000000e+00      0s
+
+Solved in 108 iterations and 0.00 seconds (0.00 work units)
+Optimal objective  0.000000000e+00
+
+Gurobi 13.0.3 (win64, Python) logging started Tue Oct 13 17:18:43 2026
+
+Set parameter LogToConsole to value 0
+Set parameter Username
+Set parameter LicenseID to value 2858111
+Set parameter LogFile to value "C:\Users\andre\Documents\Octavo Semestre\Planeamiento de Sistemas de Potencia\Proyecto 3\Proyecto3_TNEP\codigo\resultados\sensibilidad\logs\lp_sur46_sin_redespacho.log"
+Academic license - for non-commercial use only - expires 2027-08-27
+Set parameter Method to value 0
+Gurobi Optimizer version 13.0.3 build v13.0.3rc0 (win64 - Windows 11+.0 (26200.2))
+
+CPU model: Intel(R) Core(TM) i7-14650HX, instruction set [SSE2|AVX|AVX2]
+Thread count: 16 physical cores, 24 logical processors, using up to 24 threads
+
+Non-default parameters:
+Method  0
+LogToConsole  0
+
+Optimize a model with 93 rows, 251 columns and 551 nonzeros (Min)
+Model fingerprint: 0xb2ff44ec
+Model has 158 linear objective coefficients
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+02]
+  Objective range  [4e-01, 8e+00]
+  Bounds range     [2e+00, 2e+01]
+  RHS range        [5e-01, 2e+01]
+
+Presolve removed 39 rows and 56 columns
+Presolve time: 0.00s
+Presolved: 54 rows, 195 columns, 452 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0   -2.0170144e+02   1.481011e+02   1.696707e+08      0s
+     110    8.1969628e+01   0.000000e+00   0.000000e+00      0s
+
+Solved in 110 iterations and 0.00 seconds (0.00 work units)
+Optimal objective  8.196962771e+01
+Set parameter Method to value 0
+Gurobi Optimizer version 13.0.3 build v13.0.3rc0 (win64 - Windows 11+.0 (26200.2))
+
+CPU model: Intel(R) Core(TM) i7-14650HX, instruction set [SSE2|AVX|AVX2]
+Thread count: 16 physical cores, 24 logical processors, using up to 24 threads
+
+Non-default parameters:
+Method  0
+LogToConsole  0
+
+Optimize a model with 94 rows, 252 columns and 556 nonzeros (Min)
+Model fingerprint: 0xec541f8d
+Model has 158 linear objective coefficients
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+02]
+  Objective range  [4e-01, 8e+00]
+  Bounds range     [2e+00, 2e+01]
+  RHS range        [5e-01, 2e+01]
+
+Presolve removed 40 rows and 56 columns
+Presolve time: 0.00s
+Presolved: 54 rows, 196 columns, 454 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0   -2.3881044e+02   1.385911e+02   1.579856e+08      0s
+      84    6.1143804e+01   0.000000e+00   0.000000e+00      0s
+
+Solved in 84 iterations and 0.00 seconds (0.00 work units)
+Optimal objective  6.114380439e+01
+Set parameter Method to value 0
+Gurobi Optimizer version 13.0.3 build v13.0.3rc0 (win64 - Windows 11+.0 (26200.2))
+
+CPU model: Intel(R) Core(TM) i7-14650HX, instruction set [SSE2|AVX|AVX2]
+Thread count: 16 physical cores, 24 logical processors, using up to 24 threads
+
+Non-default parameters:
+Method  0
+LogToConsole  0
+
+Optimize a model with 95 rows, 253 columns and 561 nonzeros (Min)
+Model fingerprint: 0x32b52798
+Model has 158 linear objective coefficients
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+02]
+  Objective range  [4e-01, 8e+00]
+  Bounds range     [2e+00, 2e+01]
+  RHS range        [5e-01, 2e+01]
+
+Presolve removed 40 rows and 56 columns
+Presolve time: 0.00s
+Presolved: 55 rows, 197 columns, 460 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0   -2.0453213e+02   1.340911e+02   1.579856e+08      0s
+      98    5.7173121e+01   0.000000e+00   0.000000e+00      0s
+
+Solved in 98 iterations and 0.00 seconds (0.00 work units)
+Optimal objective  5.717312114e+01
+Set parameter Method to value 0
+Gurobi Optimizer version 13.0.3 build v13.0.3rc0 (win64 - Windows 11+.0 (26200.2))
+
+CPU model: Intel(R) Core(TM) i7-14650HX, instruction set [SSE2|AVX|AVX2]
+Thread count: 16 physical cores, 24 logical processors, using up to 24 threads
+
+Non-default parameters:
+Method  0
+LogToConsole  0
+
+Optimize a model with 96 rows, 254 columns and 566 nonzeros (Min)
+Model fingerprint: 0xa13ba9dc
+Model has 158 linear objective coefficients
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+02]
+  Objective range  [4e-01, 8e+00]
+  Bounds range     [2e+00, 2e+01]
+  RHS range        [5e-01, 2e+01]
+
+Presolve removed 41 rows and 57 columns
+Presolve time: 0.00s
+Presolved: 55 rows, 197 columns, 464 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0   -2.0618954e+02   1.252620e+02   1.598691e+08      0s
+      92    4.8995121e+01   0.000000e+00   0.000000e+00      0s
+
+Solved in 92 iterations and 0.00 seconds (0.00 work units)
+Optimal objective  4.899512114e+01
+Set parameter Method to value 0
+Gurobi Optimizer version 13.0.3 build v13.0.3rc0 (win64 - Windows 11+.0 (26200.2))
+
+CPU model: Intel(R) Core(TM) i7-14650HX, instruction set [SSE2|AVX|AVX2]
+Thread count: 16 physical cores, 24 logical processors, using up to 24 threads
+
+Non-default parameters:
+Method  0
+LogToConsole  0
+
+Optimize a model with 97 rows, 255 columns and 571 nonzeros (Min)
+Model fingerprint: 0xc970762e
+Model has 158 linear objective coefficients
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+02]
+  Objective range  [4e-01, 8e+00]
+  Bounds range     [2e+00, 2e+01]
+  RHS range        [5e-01, 2e+01]
+
+Presolve removed 41 rows and 57 columns
+Presolve time: 0.00s
+Presolved: 56 rows, 198 columns, 469 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0   -1.6057718e+03   6.055477e+02   3.841507e+08      0s
+      85    4.0817121e+01   0.000000e+00   0.000000e+00      0s
+
+Solved in 85 iterations and 0.00 seconds (0.00 work units)
+Optimal objective  4.081712114e+01
+Set parameter Method to value 0
+Gurobi Optimizer version 13.0.3 build v13.0.3rc0 (win64 - Windows 11+.0 (26200.2))
+
+CPU model: Intel(R) Core(TM) i7-14650HX, instruction set [SSE2|AVX|AVX2]
+Thread count: 16 physical cores, 24 logical processors, using up to 24 threads
+
+Non-default parameters:
+Method  0
+LogToConsole  0
+
+Optimize a model with 98 rows, 256 columns and 576 nonzeros (Min)
+Model fingerprint: 0x5ebc365f
+Model has 158 linear objective coefficients
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+02]
+  Objective range  [4e-01, 8e+00]
+  Bounds range     [2e+00, 2e+01]
+  RHS range        [5e-01, 2e+01]
+
+Presolve removed 41 rows and 55 columns
+Presolve time: 0.00s
+Presolved: 57 rows, 201 columns, 475 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0   -1.6139498e+03   6.085477e+02   3.871507e+08      0s
+     112    3.2639121e+01   0.000000e+00   0.000000e+00      0s
+
+Solved in 112 iterations and 0.00 seconds (0.00 work units)
+Optimal objective  3.263912114e+01
+Set parameter Method to value 0
+Gurobi Optimizer version 13.0.3 build v13.0.3rc0 (win64 - Windows 11+.0 (26200.2))
+
+CPU model: Intel(R) Core(TM) i7-14650HX, instruction set [SSE2|AVX|AVX2]
+Thread count: 16 physical cores, 24 logical processors, using up to 24 threads
+
+Non-default parameters:
+Method  0
+LogToConsole  0
+
+Optimize a model with 99 rows, 257 columns and 581 nonzeros (Min)
+Model fingerprint: 0xabd91082
+Model has 158 linear objective coefficients
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+02]
+  Objective range  [4e-01, 8e+00]
+  Bounds range     [2e+00, 2e+01]
+  RHS range        [5e-01, 2e+01]
+
+Presolve removed 42 rows and 55 columns
+Presolve time: 0.00s
+Presolved: 57 rows, 202 columns, 477 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0   -1.5813178e+03   4.239990e+02   2.514226e+08      0s
+      90    2.4477857e+01   0.000000e+00   0.000000e+00      0s
+
+Solved in 90 iterations and 0.00 seconds (0.00 work units)
+Optimal objective  2.447785692e+01
+Set parameter Method to value 0
+Gurobi Optimizer version 13.0.3 build v13.0.3rc0 (win64 - Windows 11+.0 (26200.2))
+
+CPU model: Intel(R) Core(TM) i7-14650HX, instruction set [SSE2|AVX|AVX2]
+Thread count: 16 physical cores, 24 logical processors, using up to 24 threads
+
+Non-default parameters:
+Method  0
+LogToConsole  0
+
+Optimize a model with 100 rows, 258 columns and 586 nonzeros (Min)
+Model fingerprint: 0xcb160027
+Model has 158 linear objective coefficients
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+02]
+  Objective range  [4e-01, 8e+00]
+  Bounds range     [2e+00, 2e+01]
+  RHS range        [5e-01, 2e+01]
+
+Presolve removed 43 rows and 55 columns
+Presolve time: 0.00s
+Presolved: 57 rows, 203 columns, 479 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0   -1.5894958e+03   4.239990e+02   2.519226e+08      0s
+     101    1.6749192e+01   0.000000e+00   0.000000e+00      0s
+
+Solved in 101 iterations and 0.00 seconds (0.00 work units)
+Optimal objective  1.674919191e+01
+Set parameter Method to value 0
+Gurobi Optimizer version 13.0.3 build v13.0.3rc0 (win64 - Windows 11+.0 (26200.2))
+
+CPU model: Intel(R) Core(TM) i7-14650HX, instruction set [SSE2|AVX|AVX2]
+Thread count: 16 physical cores, 24 logical processors, using up to 24 threads
+
+Non-default parameters:
+Method  0
+LogToConsole  0
+
+Optimize a model with 101 rows, 259 columns and 591 nonzeros (Min)
+Model fingerprint: 0xba1678ef
+Model has 158 linear objective coefficients
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+02]
+  Objective range  [4e-01, 8e+00]
+  Bounds range     [2e+00, 2e+01]
+  RHS range        [5e-01, 2e+01]
+
+Presolve removed 44 rows and 56 columns
+Presolve time: 0.00s
+Presolved: 57 rows, 203 columns, 485 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0   -1.8186293e+02   1.793505e+02   1.559227e+08      0s
+      92    1.3493138e+01   0.000000e+00   0.000000e+00      0s
+
+Solved in 92 iterations and 0.00 seconds (0.00 work units)
+Optimal objective  1.349313848e+01
+Set parameter Method to value 0
+Gurobi Optimizer version 13.0.3 build v13.0.3rc0 (win64 - Windows 11+.0 (26200.2))
+
+CPU model: Intel(R) Core(TM) i7-14650HX, instruction set [SSE2|AVX|AVX2]
+Thread count: 16 physical cores, 24 logical processors, using up to 24 threads
+
+Non-default parameters:
+Method  0
+LogToConsole  0
+
+Optimize a model with 101 rows, 259 columns and 591 nonzeros (Min)
+Model fingerprint: 0xe362356a
+Model has 158 linear objective coefficients
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+02]
+  Objective range  [4e-01, 8e+00]
+  Bounds range     [2e+00, 2e+01]
+  RHS range        [5e-01, 2e+01]
+
+Presolve removed 44 rows and 56 columns
+Presolve time: 0.00s
+Presolved: 57 rows, 203 columns, 485 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0   -2.3614346e+02   2.137839e+02   1.752757e+08      0s
+      92    7.4356493e+00   0.000000e+00   0.000000e+00      0s
+
+Solved in 92 iterations and 0.00 seconds (0.00 work units)
+Optimal objective  7.435649326e+00
+Set parameter Method to value 0
+Gurobi Optimizer version 13.0.3 build v13.0.3rc0 (win64 - Windows 11+.0 (26200.2))
+
+CPU model: Intel(R) Core(TM) i7-14650HX, instruction set [SSE2|AVX|AVX2]
+Thread count: 16 physical cores, 24 logical processors, using up to 24 threads
+
+Non-default parameters:
+Method  0
+LogToConsole  0
+
+Optimize a model with 102 rows, 260 columns and 596 nonzeros (Min)
+Model fingerprint: 0xcc788e82
+Model has 158 linear objective coefficients
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+02]
+  Objective range  [4e-01, 8e+00]
+  Bounds range     [2e+00, 2e+01]
+  RHS range        [5e-01, 2e+01]
+
+Presolve removed 45 rows and 56 columns
+Presolve time: 0.00s
+Presolved: 57 rows, 204 columns, 487 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0   -2.6946876e+02   2.155946e+02   1.772757e+08      0s
+      98    4.5817143e+00   0.000000e+00   0.000000e+00      0s
+
+Solved in 98 iterations and 0.00 seconds (0.00 work units)
+Optimal objective  4.581714326e+00
+Set parameter Method to value 0
+Gurobi Optimizer version 13.0.3 build v13.0.3rc0 (win64 - Windows 11+.0 (26200.2))
+
+CPU model: Intel(R) Core(TM) i7-14650HX, instruction set [SSE2|AVX|AVX2]
+Thread count: 16 physical cores, 24 logical processors, using up to 24 threads
+
+Non-default parameters:
+Method  0
+LogToConsole  0
+
+Optimize a model with 102 rows, 260 columns and 596 nonzeros (Min)
+Model fingerprint: 0xe49a1d80
+Model has 158 linear objective coefficients
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+02]
+  Objective range  [4e-01, 8e+00]
+  Bounds range     [2e+00, 2e+01]
+  RHS range        [5e-01, 2e+01]
+
+Presolve removed 45 rows and 56 columns
+Presolve time: 0.00s
+Presolved: 57 rows, 204 columns, 487 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0   -1.4338622e+02   2.089804e+02   1.714968e+08      0s
+     111    1.7404296e+00   0.000000e+00   0.000000e+00      0s
+
+Solved in 111 iterations and 0.00 seconds (0.00 work units)
+Optimal objective  1.740429629e+00
+Set parameter Method to value 0
+Gurobi Optimizer version 13.0.3 build v13.0.3rc0 (win64 - Windows 11+.0 (26200.2))
+
+CPU model: Intel(R) Core(TM) i7-14650HX, instruction set [SSE2|AVX|AVX2]
+Thread count: 16 physical cores, 24 logical processors, using up to 24 threads
+
+Non-default parameters:
+Method  0
+LogToConsole  0
+
+Optimize a model with 103 rows, 261 columns and 601 nonzeros (Min)
+Model fingerprint: 0x3aba4764
+Model has 158 linear objective coefficients
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+02]
+  Objective range  [4e-01, 8e+00]
+  Bounds range     [2e+00, 2e+01]
+  RHS range        [5e-01, 2e+01]
+
+Presolve removed 45 rows and 56 columns
+Presolve time: 0.00s
+Presolved: 58 rows, 205 columns, 493 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0   -9.1162645e+01   2.268037e+02   1.714173e+08      0s
+      85    5.4870866e-02   0.000000e+00   0.000000e+00      0s
+
+Solved in 85 iterations and 0.00 seconds (0.00 work units)
+Optimal objective  5.487086557e-02
+Set parameter Method to value 0
+Gurobi Optimizer version 13.0.3 build v13.0.3rc0 (win64 - Windows 11+.0 (26200.2))
+
+CPU model: Intel(R) Core(TM) i7-14650HX, instruction set [SSE2|AVX|AVX2]
+Thread count: 16 physical cores, 24 logical processors, using up to 24 threads
+
+Non-default parameters:
+Method  0
+LogToConsole  0
+
+Optimize a model with 103 rows, 261 columns and 601 nonzeros (Min)
+Model fingerprint: 0x09562ccd
+Model has 158 linear objective coefficients
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+02]
+  Objective range  [4e-01, 8e+00]
+  Bounds range     [2e+00, 2e+01]
+  RHS range        [5e-01, 2e+01]
+
+Presolve removed 45 rows and 56 columns
+Presolve time: 0.00s
+Presolved: 58 rows, 205 columns, 493 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0   -2.3494345e+01   2.289948e+02   1.857102e+08      0s
+     108    0.0000000e+00   0.000000e+00   0.000000e+00      0s
+
+Solved in 108 iterations and 0.00 seconds (0.00 work units)
+Optimal objective  0.000000000e+00

@@ -1,0 +1,13 @@
+HiGHS 1.15.1
+MILP garver6_tnep           Gurobi  1000.0000  HiGHS  1000.0000  (Optimal, 0.05 s)  dif = 0.00e+00
+MILP garver6_15corredores   Gurobi  1000.0000  HiGHS  1000.0000  (Optimal, 0.08 s)  dif = 2.27e-13
+MILP sur46_sin_redespacho   Gurobi   154.4200  HiGHS   154.4200  (Optimal, 22.27 s)  dif = 2.84e-14
+LP: 30 programas lineales re-resueltos; maxima diferencia 4.62e-13 (sur46_sin_redespacho, iteracion 4)
+   Garver iter 1: Gurobi 878.7500  HiGHS 878.7500
+   Garver iter 2: Gurobi 728.7500  HiGHS 728.7500
+   Garver iter 3: Gurobi 578.7500  HiGHS 578.7500
+   Garver iter 4: Gurobi 456.6250  HiGHS 456.6250
+   Garver iter 5: Gurobi 306.6250  HiGHS 306.6250
+   Garver iter 6: Gurobi 156.6250  HiGHS 156.6250
+   Garver iter 7: Gurobi 73.7473  HiGHS 73.7473
+   Garver iter 8: Gurobi 0.0000  HiGHS 0.0000

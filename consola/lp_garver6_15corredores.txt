@@ -1,0 +1,26 @@
+==============================================================================
+METODO LP ITERATIVO (Villasana-Garver 1985) - Gurobi 13.0.3
+==============================================================================
+Garver 6 barras - 15 corredores (Garver 1970, Tabla IV): 6 barras, 6 ramas existentes (6 circuitos), 15 corredores candidatos, 75 lineas candidatas como maximo, demanda 760.0 MW
+  Iter  1: f.o. =   878.7500   sobrecargas (MW) = 2-6: 213.75, 3-5:  61.25, 4-6: 331.25   -> +1 linea en 4-6
+  Iter  2: f.o. =   728.7500   sobrecargas (MW) = 2-6: 213.75, 3-5:  61.25, 4-6: 231.25   -> +1 linea en 4-6
+  Iter  3: f.o. =   578.7500   sobrecargas (MW) = 2-6: 213.75, 3-5:  61.25, 4-6: 131.25   -> +1 linea en 2-6
+  Iter  4: f.o. =   456.6250   sobrecargas (MW) = 2-6: 248.60, 3-5:  83.72   -> +1 linea en 2-6
+  Iter  5: f.o. =   306.6250   sobrecargas (MW) = 2-6: 148.60, 3-5:  83.72   -> +1 linea en 2-6
+  Iter  6: f.o. =   156.6250   sobrecargas (MW) = 2-6:  48.60, 3-5:  83.72   -> +1 linea en 3-5
+  Iter  7: f.o. =    73.7473   sobrecargas (MW) = 2-6:  49.16   -> +1 linea en 2-6
+  Iter  8: f.o. =     0.0000   -> sin sobrecargas: plan factible
+
+Plan LP: n26=4, n35=1, n46=2
+Costo de inversion: 1000.000 pu   (8 LP resueltos en 0.011 s)
+Verificacion por flujo DC: FACTIBLE
+    Rama       Tipo   n   Flujo MW   Cap. MW  Carga %
+     1-2  existente   1     -51.25       100     51.3
+     1-4  existente   1     -31.75        80     39.7
+     1-5  existente   1      53.00       100     53.0
+     2-3  existente   1      62.00       100     62.0
+     2-4  existente   1       3.63       100      3.6
+     3-5  existente   1      93.50       100     93.5
+     2-6      nueva   4    -356.88       400     89.2
+     3-5      nueva   1      93.50       100     93.5
+     4-6      nueva   2    -188.12       200     94.1

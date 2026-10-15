@@ -1,0 +1,373 @@
+{
+  "lp": [
+    {
+      "caso": "garver6_tnep",
+      "iteracion": 1,
+      "gurobi": 878.75,
+      "highs": 878.75,
+      "estado": "Optimal",
+      "diferencia": 0.0,
+      "refuerzo_gurobi": "6-4",
+      "refuerzo_highs": "6-4",
+      "mismo_refuerzo": true
+    },
+    {
+      "caso": "garver6_tnep",
+      "iteracion": 2,
+      "gurobi": 728.75,
+      "highs": 728.75,
+      "estado": "Optimal",
+      "diferencia": 0.0,
+      "refuerzo_gurobi": "6-4",
+      "refuerzo_highs": "6-4",
+      "mismo_refuerzo": true
+    },
+    {
+      "caso": "garver6_tnep",
+      "iteracion": 3,
+      "gurobi": 578.75,
+      "highs": 578.75,
+      "estado": "Optimal",
+      "diferencia": 0.0,
+      "refuerzo_gurobi": "6-2",
+      "refuerzo_highs": "6-2",
+      "mismo_refuerzo": true
+    },
+    {
+      "caso": "garver6_tnep",
+      "iteracion": 4,
+      "gurobi": 456.62499999999994,
+      "highs": 456.62499999999994,
+      "estado": "Optimal",
+      "diferencia": 0.0,
+      "refuerzo_gurobi": "6-2",
+      "refuerzo_highs": "6-2",
+      "mismo_refuerzo": true
+    },
+    {
+      "caso": "garver6_tnep",
+      "iteracion": 5,
+      "gurobi": 306.625,
+      "highs": 306.62499999999994,
+      "estado": "Optimal",
+      "diferencia": 5.684341886080802e-14,
+      "refuerzo_gurobi": "6-2",
+      "refuerzo_highs": "6-2",
+      "mismo_refuerzo": true
+    },
+    {
+      "caso": "garver6_tnep",
+      "iteracion": 6,
+      "gurobi": 156.62499999999997,
+      "highs": 156.62499999999994,
+      "estado": "Optimal",
+      "diferencia": 2.842170943040401e-14,
+      "refuerzo_gurobi": "3-5",
+      "refuerzo_highs": "3-5",
+      "mismo_refuerzo": true
+    },
+    {
+      "caso": "garver6_tnep",
+      "iteracion": 7,
+      "gurobi": 73.7472885032538,
+      "highs": 73.74728850325387,
+      "estado": "Optimal",
+      "diferencia": 7.105427357601002e-14,
+      "refuerzo_gurobi": "6-2",
+      "refuerzo_highs": "6-2",
+      "mismo_refuerzo": true
+    },
+    {
+      "caso": "garver6_tnep",
+      "iteracion": 8,
+      "gurobi": 0.0,
+      "highs": 0.0,
+      "estado": "Optimal",
+      "diferencia": 0.0,
+      "refuerzo_gurobi": null,
+      "refuerzo_highs": null,
+      "mismo_refuerzo": true
+    },
+    {
+      "caso": "garver6_15corredores",
+      "iteracion": 1,
+      "gurobi": 878.75,
+      "highs": 878.75,
+      "estado": "Optimal",
+      "diferencia": 0.0,
+      "refuerzo_gurobi": "4-6",
+      "refuerzo_highs": "4-6",
+      "mismo_refuerzo": true
+    },
+    {
+      "caso": "garver6_15corredores",
+      "iteracion": 2,
+      "gurobi": 728.75,
+      "highs": 728.75,
+      "estado": "Optimal",
+      "diferencia": 0.0,
+      "refuerzo_gurobi": "4-6",
+      "refuerzo_highs": "4-6",
+      "mismo_refuerzo": true
+    },
+    {
+      "caso": "garver6_15corredores",
+      "iteracion": 3,
+      "gurobi": 578.75,
+      "highs": 578.75,
+      "estado": "Optimal",
+      "diferencia": 0.0,
+      "refuerzo_gurobi": "2-6",
+      "refuerzo_highs": "2-6",
+      "mismo_refuerzo": true
+    },
+    {
+      "caso": "garver6_15corredores",
+      "iteracion": 4,
+      "gurobi": 456.62499999999994,
+      "highs": 456.62499999999994,
+      "estado": "Optimal",
+      "diferencia": 0.0,
+      "refuerzo_gurobi": "2-6",
+      "refuerzo_highs": "2-6",
+      "mismo_refuerzo": true
+    },
+    {
+      "caso": "garver6_15corredores",
+      "iteracion": 5,
+      "gurobi": 306.62499999999994,
+      "highs": 306.62499999999994,
+      "estado": "Optimal",
+      "diferencia": 0.0,
+      "refuerzo_gurobi": "2-6",
+      "refuerzo_highs": "2-6",
+      "mismo_refuerzo": true
+    },
+    {
+      "caso": "garver6_15corredores",
+      "iteracion": 6,
+      "gurobi": 156.62499999999994,
+      "highs": 156.62499999999994,
+      "estado": "Optimal",
+      "diferencia": 0.0,
+      "refuerzo_gurobi": "3-5",
+      "refuerzo_highs": "3-5",
+      "mismo_refuerzo": true
+    },
+    {
+      "caso": "garver6_15corredores",
+      "iteracion": 7,
+      "gurobi": 73.7472885032538,
+      "highs": 73.74728850325374,
+      "estado": "Optimal",
+      "diferencia": 5.684341886080802e-14,
+      "refuerzo_gurobi": "2-6",
+      "refuerzo_highs": "2-6",
+      "mismo_refuerzo": true
+    },
+    {
+      "caso": "garver6_15corredores",
+      "iteracion": 8,
+      "gurobi": 0.0,
+      "highs": 0.0,
+      "estado": "Optimal",
+      "diferencia": 0.0,
+      "refuerzo_gurobi": null,
+      "refuerzo_highs": null,
+      "mismo_refuerzo": true
+    },
+    {
+      "caso": "sur46_sin_redespacho",
+      "iteracion": 1,
+      "gurobi": 81.96962771482048,
+      "highs": 81.96962771482083,
+      "estado": "Optimal",
+      "diferencia": 3.552713678800501e-13,
+      "refuerzo_gurobi": "20-21",
+      "refuerzo_highs": "20-21",
+      "mismo_refuerzo": true
+    },
+    {
+      "caso": "sur46_sin_redespacho",
+      "iteracion": 2,
+      "gurobi": 73.79162771482086,
+      "highs": 73.79162771482083,
+      "estado": "Optimal",
+      "diferencia": 2.842170943040401e-14,
+      "refuerzo_gurobi": "5-6",
+      "refuerzo_highs": "5-6",
+      "mismo_refuerzo": true
+    },
+    {
+      "caso": "sur46_sin_redespacho",
+      "iteracion": 3,
+      "gurobi": 65.61362771482085,
+      "highs": 65.61362771482084,
+      "estado": "Optimal",
+      "diferencia": 1.4210854715202004e-14,
+      "refuerzo_gurobi": "42-43",
+      "refuerzo_highs": "42-43",
+      "mismo_refuerzo": true
+    },
+    {
+      "caso": "sur46_sin_redespacho",
+      "iteracion": 4,
+      "gurobi": 57.43562771482066,
+      "highs": 57.43562771482112,
+      "estado": "Optimal",
+      "diferencia": 4.618527782440651e-13,
+      "refuerzo_gurobi": "24-25",
+      "refuerzo_highs": "24-25",
+      "mismo_refuerzo": true
+    },
+    {
+      "caso": "sur46_sin_redespacho",
+      "iteracion": 5,
+      "gurobi": 49.72193175904977,
+      "highs": 49.72193175904975,
+      "estado": "Optimal",
+      "diferencia": 1.4210854715202004e-14,
+      "refuerzo_gurobi": "40-41",
+      "refuerzo_highs": "40-41",
+      "mismo_refuerzo": true
+    },
+    {
+      "caso": "sur46_sin_redespacho",
+      "iteracion": 6,
+      "gurobi": 43.43886174342919,
+      "highs": 43.43886174342917,
+      "estado": "Optimal",
+      "diferencia": 2.1316282072803006e-14,
+      "refuerzo_gurobi": "46-6",
+      "refuerzo_highs": "46-6",
+      "mismo_refuerzo": true
+    },
+    {
+      "caso": "sur46_sin_redespacho",
+      "iteracion": 7,
+      "gurobi": 38.265912560956025,
+      "highs": 38.26591256095608,
+      "estado": "Optimal",
+      "diferencia": 5.684341886080802e-14,
+      "refuerzo_gurobi": "5-6",
+      "refuerzo_highs": "5-6",
+      "mismo_refuerzo": true
+    },
+    {
+      "caso": "sur46_sin_redespacho",
+      "iteracion": 8,
+      "gurobi": 31.99824276744412,
+      "highs": 31.998242767444115,
+      "estado": "Optimal",
+      "diferencia": 3.552713678800501e-15,
+      "refuerzo_gurobi": "25-32",
+      "refuerzo_highs": "25-32",
+      "mismo_refuerzo": true
+    },
+    {
+      "caso": "sur46_sin_redespacho",
+      "iteracion": 9,
+      "gurobi": 16.83779323638472,
+      "highs": 16.837793236384524,
+      "estado": "Optimal",
+      "diferencia": 1.9539925233402755e-13,
+      "refuerzo_gurobi": "31-32",
+      "refuerzo_highs": "31-32",
+      "mismo_refuerzo": true
+    },
+    {
+      "caso": "sur46_sin_redespacho",
+      "iteracion": 10,
+      "gurobi": 14.22268432382732,
+      "highs": 14.222684323826893,
+      "estado": "Optimal",
+      "diferencia": 4.263256414560601e-13,
+      "refuerzo_gurobi": "28-31",
+      "refuerzo_highs": "28-31",
+      "mismo_refuerzo": true
+    },
+    {
+      "caso": "sur46_sin_redespacho",
+      "iteracion": 11,
+      "gurobi": 11.36874932382732,
+      "highs": 11.368749323827071,
+      "estado": "Optimal",
+      "diferencia": 2.4868995751603507e-13,
+      "refuerzo_gurobi": "24-25",
+      "refuerzo_highs": "24-25",
+      "mismo_refuerzo": true
+    },
+    {
+      "caso": "sur46_sin_redespacho",
+      "iteracion": 12,
+      "gurobi": 8.179243669470482,
+      "highs": 8.179243669470477,
+      "estado": "Optimal",
+      "diferencia": 5.329070518200751e-15,
+      "refuerzo_gurobi": "31-41",
+      "refuerzo_highs": "31-41",
+      "mismo_refuerzo": true
+    },
+    {
+      "caso": "sur46_sin_redespacho",
+      "iteracion": 13,
+      "gurobi": 0.05487086556864388,
+      "highs": 0.05487086556862935,
+      "estado": "Optimal",
+      "diferencia": 1.4530043834781736e-14,
+      "refuerzo_gurobi": "20-21",
+      "refuerzo_highs": "20-21",
+      "mismo_refuerzo": true
+    },
+    {
+      "caso": "sur46_sin_redespacho",
+      "iteracion": 14,
+      "gurobi": 0.0,
+      "highs": 0.0,
+      "estado": "Optimal",
+      "diferencia": 0.0,
+      "refuerzo_gurobi": null,
+      "refuerzo_highs": null,
+      "mismo_refuerzo": true
+    }
+  ],
+  "milp": [
+    {
+      "caso": "garver6_tnep",
+      "gurobi": 1000.0,
+      "highs": 1000.0,
+      "estado": "Optimal",
+      "tiempo_highs_s": 0.037737200036644936,
+      "tiempo_gurobi_s": 0.007999897003173828,
+      "diferencia": 0.0,
+      "plan_gurobi": "n62=4, n64=2, n35=1",
+      "plan_highs": "n62=4, n64=2, n35=1",
+      "mismo_plan": true
+    },
+    {
+      "caso": "garver6_15corredores",
+      "gurobi": 1000.0,
+      "highs": 999.9999999999998,
+      "estado": "Optimal",
+      "tiempo_highs_s": 0.04349239997100085,
+      "tiempo_gurobi_s": 0.023000001907348633,
+      "diferencia": 2.2737367544323206e-13,
+      "plan_gurobi": "n26=4, n35=1, n46=2",
+      "plan_highs": "n26=4, n35=1, n46=2",
+      "mismo_plan": true
+    },
+    {
+      "caso": "sur46_sin_redespacho",
+      "gurobi": 154.42,
+      "highs": 154.42000000000002,
+      "estado": "Optimal",
+      "tiempo_highs_s": 22.216865499969572,
+      "tiempo_gurobi_s": 1.50600004196167,
+      "diferencia": 2.842170943040401e-14,
+      "plan_gurobi": "n2021=1, n4243=2, n466=1, n1925=1, n2425=2, n56=2, n3132=1, n2830=1, n2629=3, n2930=2",
+      "plan_highs": "n2021=1, n4243=2, n466=1, n1925=1, n2425=2, n56=2, n3132=1, n2830=1, n2629=3, n2930=2",
+      "mismo_plan": true
+    }
+  ],
+  "version_highs": "1.15.1"
+}

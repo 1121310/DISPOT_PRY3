@@ -1,0 +1,887 @@
+
+Gurobi 13.0.3 (win64, Python) logging started Tue Oct 13 17:15:54 2026
+
+Set parameter LogToConsole to value 0
+Set parameter Username
+Set parameter LicenseID to value 2858111
+Set parameter LogFile to value "C:\Users\andre\Documents\Octavo Semestre\Planeamiento de Sistemas de Potencia\Proyecto 3\Proyecto3_TNEP\codigo\resultados\sensibilidad\logs\milp_garver6_tnep_biseccion.log"
+Academic license - for non-commercial use only - expires 2027-08-27
+Set parameter MIPGap to value 0
+Set parameter TimeLimit to value 3600
+Gurobi Optimizer version 13.0.3 build v13.0.3rc0 (win64 - Windows 11+.0 (26200.2))
+
+CPU model: Intel(R) Core(TM) i7-14650HX, instruction set [SSE2|AVX|AVX2]
+Thread count: 16 physical cores, 24 logical processors, using up to 24 threads
+
+Non-default parameters:
+TimeLimit  3600
+MIPGap  0
+LogToConsole  0
+
+Optimize a model with 52 rows, 40 columns and 200 nonzeros (Min)
+Model fingerprint: 0xb723179a
+Model has 14 linear objective coefficients
+Variable types: 26 continuous, 14 integer (14 binary)
+Coefficient statistics:
+  Matrix range     [6e-01, 2e+01]
+  Objective range  [1e+02, 9e+02]
+  Bounds range     [8e-01, 1e+00]
+  RHS range        [3e-01, 5e+00]
+
+Presolve removed 3 rows and 4 columns
+Presolve time: 0.00s
+Presolved: 49 rows, 36 columns, 190 nonzeros
+Variable types: 22 continuous, 14 integer (14 binary)
+Found heuristic solution: objective 1155.0000000
+
+Root relaxation: objective 8.941062e+02, 31 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0  894.10618    0    3 1155.00000  894.10618  22.6%     -    0s
+     0     0  985.71176    0    6 1155.00000  985.71176  14.7%     -    0s
+H    0     0                    1100.0000000  985.71176  10.4%     -    0s
+     0     0 1045.92620    0    7 1100.00000 1045.92620  4.92%     -    0s
+
+Cutting planes:
+  Gomory: 6
+  Implied bound: 1
+  MIR: 3
+  StrongCG: 1
+  GUB cover: 1
+
+Explored 1 nodes (44 simplex iterations) in 0.01 seconds (0.00 work units)
+Thread count was 24 (of 24 available processors)
+
+Solution count 2: 1100 1155 
+
+Optimal solution found (tolerance 0.00e+00)
+Best objective 1.100000000000e+03, best bound 1.100000000000e+03, gap 0.0000%
+
+User-callback calls 412, time in user-callback 0.00 sec
+
+Gurobi 13.0.3 (win64, Python) logging started Tue Oct 13 17:15:54 2026
+
+Set parameter LogToConsole to value 0
+Set parameter Username
+Set parameter LicenseID to value 2858111
+Set parameter LogFile to value "C:\Users\andre\Documents\Octavo Semestre\Planeamiento de Sistemas de Potencia\Proyecto 3\Proyecto3_TNEP\codigo\resultados\sensibilidad\logs\milp_garver6_tnep_biseccion.log"
+Academic license - for non-commercial use only - expires 2027-08-27
+Set parameter MIPGap to value 0
+Set parameter TimeLimit to value 3600
+Gurobi Optimizer version 13.0.3 build v13.0.3rc0 (win64 - Windows 11+.0 (26200.2))
+
+CPU model: Intel(R) Core(TM) i7-14650HX, instruction set [SSE2|AVX|AVX2]
+Thread count: 16 physical cores, 24 logical processors, using up to 24 threads
+
+Non-default parameters:
+TimeLimit  3600
+MIPGap  0
+LogToConsole  0
+
+Optimize a model with 52 rows, 40 columns and 200 nonzeros (Min)
+Model fingerprint: 0x55d854c2
+Model has 14 linear objective coefficients
+Variable types: 26 continuous, 14 integer (14 binary)
+Coefficient statistics:
+  Matrix range     [8e-01, 2e+01]
+  Objective range  [1e+02, 9e+02]
+  Bounds range     [8e-01, 1e+00]
+  RHS range        [3e-01, 5e+00]
+
+Presolve removed 3 rows and 4 columns
+Presolve time: 0.00s
+Presolved: 49 rows, 36 columns, 190 nonzeros
+Variable types: 22 continuous, 14 integer (14 binary)
+Found heuristic solution: objective 1155.0000000
+
+Root relaxation: objective 8.871716e+02, 31 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0  887.17164    0    3 1155.00000  887.17164  23.2%     -    0s
+H    0     0                    1150.0000000  887.17164  22.9%     -    0s
+H    0     0                    1100.0000000  887.17164  19.3%     -    0s
+H    0     0                    1000.0000000  918.09881  8.19%     -    0s
+     0     0  924.34949    0    5 1000.00000  924.34949  7.57%     -    0s
+
+Cutting planes:
+  Gomory: 1
+  Cover: 2
+  Implied bound: 1
+  MIR: 5
+  GUB cover: 1
+
+Explored 1 nodes (41 simplex iterations) in 0.01 seconds (0.00 work units)
+Thread count was 24 (of 24 available processors)
+
+Solution count 4: 1000 1100 1150 1155 
+
+Optimal solution found (tolerance 0.00e+00)
+Best objective 1.000000000000e+03, best bound 1.000000000000e+03, gap 0.0000%
+
+User-callback calls 410, time in user-callback 0.00 sec
+
+Gurobi 13.0.3 (win64, Python) logging started Tue Oct 13 17:15:54 2026
+
+Set parameter LogToConsole to value 0
+Set parameter Username
+Set parameter LicenseID to value 2858111
+Set parameter LogFile to value "C:\Users\andre\Documents\Octavo Semestre\Planeamiento de Sistemas de Potencia\Proyecto 3\Proyecto3_TNEP\codigo\resultados\sensibilidad\logs\milp_garver6_tnep_biseccion.log"
+Academic license - for non-commercial use only - expires 2027-08-27
+Set parameter MIPGap to value 0
+Set parameter TimeLimit to value 3600
+Gurobi Optimizer version 13.0.3 build v13.0.3rc0 (win64 - Windows 11+.0 (26200.2))
+
+CPU model: Intel(R) Core(TM) i7-14650HX, instruction set [SSE2|AVX|AVX2]
+Thread count: 16 physical cores, 24 logical processors, using up to 24 threads
+
+Non-default parameters:
+TimeLimit  3600
+MIPGap  0
+LogToConsole  0
+
+Optimize a model with 52 rows, 40 columns and 200 nonzeros (Min)
+Model fingerprint: 0x1dda2fac
+Model has 14 linear objective coefficients
+Variable types: 26 continuous, 14 integer (14 binary)
+Coefficient statistics:
+  Matrix range     [7e-01, 2e+01]
+  Objective range  [1e+02, 9e+02]
+  Bounds range     [8e-01, 1e+00]
+  RHS range        [3e-01, 5e+00]
+
+Presolve removed 3 rows and 4 columns
+Presolve time: 0.00s
+Presolved: 49 rows, 36 columns, 190 nonzeros
+Variable types: 22 continuous, 14 integer (14 binary)
+Found heuristic solution: objective 1155.0000000
+
+Root relaxation: objective 8.900360e+02, 31 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0  890.03603    0    3 1155.00000  890.03603  22.9%     -    0s
+H    0     0                    1150.0000000  890.03603  22.6%     -    0s
+H    0     0                    1100.0000000  890.03603  19.1%     -    0s
+H    0     0                    1000.0000000  927.90376  7.21%     -    0s
+     0     0  983.12500    0    6 1000.00000  983.12500  1.69%     -    0s
+     0     0 1000.00000    0    6 1000.00000 1000.00000  0.00%     -    0s
+
+Cutting planes:
+  Gomory: 3
+  Cover: 1
+  MIR: 1
+  GUB cover: 1
+
+Explored 1 nodes (46 simplex iterations) in 0.01 seconds (0.00 work units)
+Thread count was 24 (of 24 available processors)
+
+Solution count 4: 1000 1100 1150 1155 
+
+Optimal solution found (tolerance 0.00e+00)
+Best objective 1.000000000000e+03, best bound 1.000000000000e+03, gap 0.0000%
+
+User-callback calls 413, time in user-callback 0.00 sec
+
+Gurobi 13.0.3 (win64, Python) logging started Tue Oct 13 17:15:54 2026
+
+Set parameter LogToConsole to value 0
+Set parameter Username
+Set parameter LicenseID to value 2858111
+Set parameter LogFile to value "C:\Users\andre\Documents\Octavo Semestre\Planeamiento de Sistemas de Potencia\Proyecto 3\Proyecto3_TNEP\codigo\resultados\sensibilidad\logs\milp_garver6_tnep_biseccion.log"
+Academic license - for non-commercial use only - expires 2027-08-27
+Set parameter MIPGap to value 0
+Set parameter TimeLimit to value 3600
+Gurobi Optimizer version 13.0.3 build v13.0.3rc0 (win64 - Windows 11+.0 (26200.2))
+
+CPU model: Intel(R) Core(TM) i7-14650HX, instruction set [SSE2|AVX|AVX2]
+Thread count: 16 physical cores, 24 logical processors, using up to 24 threads
+
+Non-default parameters:
+TimeLimit  3600
+MIPGap  0
+LogToConsole  0
+
+Optimize a model with 52 rows, 40 columns and 200 nonzeros (Min)
+Model fingerprint: 0x90afb60f
+Model has 14 linear objective coefficients
+Variable types: 26 continuous, 14 integer (14 binary)
+Coefficient statistics:
+  Matrix range     [6e-01, 2e+01]
+  Objective range  [1e+02, 9e+02]
+  Bounds range     [8e-01, 1e+00]
+  RHS range        [3e-01, 5e+00]
+
+Presolve removed 3 rows and 4 columns
+Presolve time: 0.00s
+Presolved: 49 rows, 36 columns, 190 nonzeros
+Variable types: 22 continuous, 14 integer (14 binary)
+Found heuristic solution: objective 1155.0000000
+
+Root relaxation: objective 8.919998e+02, 31 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0  891.99984    0    3 1155.00000  891.99984  22.8%     -    0s
+H    0     0                    1150.0000000  891.99984  22.4%     -    0s
+H    0     0                    1100.0000000  891.99984  18.9%     -    0s
+     0     0  953.86029    0    7 1100.00000  953.86029  13.3%     -    0s
+H    0     0                    1000.0000000  953.86029  4.61%     -    0s
+     0     0  985.03178    0    7 1000.00000  985.03178  1.50%     -    0s
+
+Cutting planes:
+  Gomory: 8
+  Cover: 1
+  MIR: 8
+  GUB cover: 1
+
+Explored 1 nodes (47 simplex iterations) in 0.02 seconds (0.00 work units)
+Thread count was 24 (of 24 available processors)
+
+Solution count 4: 1000 1100 1150 1155 
+
+Optimal solution found (tolerance 0.00e+00)
+Best objective 1.000000000000e+03, best bound 1.000000000000e+03, gap 0.0000%
+
+User-callback calls 415, time in user-callback 0.00 sec
+
+Gurobi 13.0.3 (win64, Python) logging started Tue Oct 13 17:15:54 2026
+
+Set parameter LogToConsole to value 0
+Set parameter Username
+Set parameter LicenseID to value 2858111
+Set parameter LogFile to value "C:\Users\andre\Documents\Octavo Semestre\Planeamiento de Sistemas de Potencia\Proyecto 3\Proyecto3_TNEP\codigo\resultados\sensibilidad\logs\milp_garver6_tnep_biseccion.log"
+Academic license - for non-commercial use only - expires 2027-08-27
+Set parameter MIPGap to value 0
+Set parameter TimeLimit to value 3600
+Gurobi Optimizer version 13.0.3 build v13.0.3rc0 (win64 - Windows 11+.0 (26200.2))
+
+CPU model: Intel(R) Core(TM) i7-14650HX, instruction set [SSE2|AVX|AVX2]
+Thread count: 16 physical cores, 24 logical processors, using up to 24 threads
+
+Non-default parameters:
+TimeLimit  3600
+MIPGap  0
+LogToConsole  0
+
+Optimize a model with 52 rows, 40 columns and 200 nonzeros (Min)
+Model fingerprint: 0x0f14e7cd
+Model has 14 linear objective coefficients
+Variable types: 26 continuous, 14 integer (14 binary)
+Coefficient statistics:
+  Matrix range     [6e-01, 2e+01]
+  Objective range  [1e+02, 9e+02]
+  Bounds range     [8e-01, 1e+00]
+  RHS range        [3e-01, 5e+00]
+
+Presolve removed 3 rows and 4 columns
+Presolve time: 0.00s
+Presolved: 49 rows, 36 columns, 190 nonzeros
+Variable types: 22 continuous, 14 integer (14 binary)
+Found heuristic solution: objective 1155.0000000
+
+Root relaxation: objective 8.930342e+02, 31 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0  893.03424    0    3 1155.00000  893.03424  22.7%     -    0s
+H    0     0                    1150.0000000  893.03424  22.3%     -    0s
+H    0     0                    1100.0000000  969.13645  11.9%     -    0s
+     0     0  974.85987    0    6 1100.00000  974.85987  11.4%     -    0s
+     0     0 1000.00000    0    7 1100.00000 1000.00000  9.09%     -    0s
+
+Cutting planes:
+  Gomory: 6
+  Cover: 2
+  Implied bound: 1
+  MIR: 3
+  GUB cover: 1
+
+Explored 1 nodes (45 simplex iterations) in 0.02 seconds (0.00 work units)
+Thread count was 24 (of 24 available processors)
+
+Solution count 3: 1100 1150 1155 
+
+Optimal solution found (tolerance 0.00e+00)
+Best objective 1.100000000000e+03, best bound 1.100000000000e+03, gap 0.0000%
+
+User-callback calls 415, time in user-callback 0.00 sec
+
+Gurobi 13.0.3 (win64, Python) logging started Tue Oct 13 17:15:54 2026
+
+Set parameter LogToConsole to value 0
+Set parameter Username
+Set parameter LicenseID to value 2858111
+Set parameter LogFile to value "C:\Users\andre\Documents\Octavo Semestre\Planeamiento de Sistemas de Potencia\Proyecto 3\Proyecto3_TNEP\codigo\resultados\sensibilidad\logs\milp_garver6_tnep_biseccion.log"
+Academic license - for non-commercial use only - expires 2027-08-27
+Set parameter MIPGap to value 0
+Set parameter TimeLimit to value 3600
+Gurobi Optimizer version 13.0.3 build v13.0.3rc0 (win64 - Windows 11+.0 (26200.2))
+
+CPU model: Intel(R) Core(TM) i7-14650HX, instruction set [SSE2|AVX|AVX2]
+Thread count: 16 physical cores, 24 logical processors, using up to 24 threads
+
+Non-default parameters:
+TimeLimit  3600
+MIPGap  0
+LogToConsole  0
+
+Optimize a model with 52 rows, 40 columns and 200 nonzeros (Min)
+Model fingerprint: 0xfc55f7a6
+Model has 14 linear objective coefficients
+Variable types: 26 continuous, 14 integer (14 binary)
+Coefficient statistics:
+  Matrix range     [6e-01, 2e+01]
+  Objective range  [1e+02, 9e+02]
+  Bounds range     [8e-01, 1e+00]
+  RHS range        [3e-01, 5e+00]
+
+Presolve removed 3 rows and 4 columns
+Presolve time: 0.00s
+Presolved: 49 rows, 36 columns, 190 nonzeros
+Variable types: 22 continuous, 14 integer (14 binary)
+Found heuristic solution: objective 1155.0000000
+
+Root relaxation: objective 8.925125e+02, 31 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0  892.51247    0    3 1155.00000  892.51247  22.7%     -    0s
+H    0     0                    1150.0000000  892.51247  22.4%     -    0s
+H    0     0                    1100.0000000  953.46100  13.3%     -    0s
+     0     0  967.45404    0    6 1100.00000  967.45404  12.0%     -    0s
+H    0     0                    1000.0000000  967.45404  3.25%     -    0s
+     0     0 1000.00000    0    7 1000.00000 1000.00000  0.00%     -    0s
+
+Cutting planes:
+  Gomory: 3
+  Cover: 1
+  GUB cover: 1
+
+Explored 1 nodes (46 simplex iterations) in 0.01 seconds (0.00 work units)
+Thread count was 24 (of 24 available processors)
+
+Solution count 4: 1000 1100 1150 1155 
+
+Optimal solution found (tolerance 0.00e+00)
+Best objective 1.000000000000e+03, best bound 1.000000000000e+03, gap 0.0000%
+
+User-callback calls 412, time in user-callback 0.00 sec
+
+Gurobi 13.0.3 (win64, Python) logging started Tue Oct 13 17:15:54 2026
+
+Set parameter LogToConsole to value 0
+Set parameter Username
+Set parameter LicenseID to value 2858111
+Set parameter LogFile to value "C:\Users\andre\Documents\Octavo Semestre\Planeamiento de Sistemas de Potencia\Proyecto 3\Proyecto3_TNEP\codigo\resultados\sensibilidad\logs\milp_garver6_tnep_biseccion.log"
+Academic license - for non-commercial use only - expires 2027-08-27
+Set parameter MIPGap to value 0
+Set parameter TimeLimit to value 3600
+Gurobi Optimizer version 13.0.3 build v13.0.3rc0 (win64 - Windows 11+.0 (26200.2))
+
+CPU model: Intel(R) Core(TM) i7-14650HX, instruction set [SSE2|AVX|AVX2]
+Thread count: 16 physical cores, 24 logical processors, using up to 24 threads
+
+Non-default parameters:
+TimeLimit  3600
+MIPGap  0
+LogToConsole  0
+
+Optimize a model with 52 rows, 40 columns and 200 nonzeros (Min)
+Model fingerprint: 0xd4d7ac94
+Model has 14 linear objective coefficients
+Variable types: 26 continuous, 14 integer (14 binary)
+Coefficient statistics:
+  Matrix range     [6e-01, 2e+01]
+  Objective range  [1e+02, 9e+02]
+  Bounds range     [8e-01, 1e+00]
+  RHS range        [3e-01, 5e+00]
+
+Presolve removed 3 rows and 4 columns
+Presolve time: 0.00s
+Presolved: 49 rows, 36 columns, 190 nonzeros
+Variable types: 22 continuous, 14 integer (14 binary)
+Found heuristic solution: objective 1155.0000000
+
+Root relaxation: objective 8.927722e+02, 31 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0  892.77220    0    3 1155.00000  892.77220  22.7%     -    0s
+H    0     0                    1150.0000000  892.77220  22.4%     -    0s
+H    0     0                    1100.0000000  942.97544  14.3%     -    0s
+     0     0  971.86883    0    6 1100.00000  971.86883  11.6%     -    0s
+H    0     0                    1000.0000000  971.86883  2.81%     -    0s
+     0     0  987.20253    0    7 1000.00000  987.20253  1.28%     -    0s
+     0     0  987.20253    0    6 1000.00000  987.20253  1.28%     -    0s
+
+Cutting planes:
+  Gomory: 6
+  Cover: 2
+  Implied bound: 2
+  MIR: 5
+  StrongCG: 1
+  GUB cover: 2
+
+Explored 1 nodes (45 simplex iterations) in 0.02 seconds (0.00 work units)
+Thread count was 24 (of 24 available processors)
+
+Solution count 4: 1000 1100 1150 1155 
+
+Optimal solution found (tolerance 0.00e+00)
+Best objective 1.000000000000e+03, best bound 1.000000000000e+03, gap 0.0000%
+
+User-callback calls 417, time in user-callback 0.00 sec
+
+Gurobi 13.0.3 (win64, Python) logging started Tue Oct 13 17:15:54 2026
+
+Set parameter LogToConsole to value 0
+Set parameter Username
+Set parameter LicenseID to value 2858111
+Set parameter LogFile to value "C:\Users\andre\Documents\Octavo Semestre\Planeamiento de Sistemas de Potencia\Proyecto 3\Proyecto3_TNEP\codigo\resultados\sensibilidad\logs\milp_garver6_tnep_biseccion.log"
+Academic license - for non-commercial use only - expires 2027-08-27
+Set parameter MIPGap to value 0
+Set parameter TimeLimit to value 3600
+Gurobi Optimizer version 13.0.3 build v13.0.3rc0 (win64 - Windows 11+.0 (26200.2))
+
+CPU model: Intel(R) Core(TM) i7-14650HX, instruction set [SSE2|AVX|AVX2]
+Thread count: 16 physical cores, 24 logical processors, using up to 24 threads
+
+Non-default parameters:
+TimeLimit  3600
+MIPGap  0
+LogToConsole  0
+
+Optimize a model with 52 rows, 40 columns and 200 nonzeros (Min)
+Model fingerprint: 0xeaf5c440
+Model has 14 linear objective coefficients
+Variable types: 26 continuous, 14 integer (14 binary)
+Coefficient statistics:
+  Matrix range     [6e-01, 2e+01]
+  Objective range  [1e+02, 9e+02]
+  Bounds range     [8e-01, 1e+00]
+  RHS range        [3e-01, 5e+00]
+
+Presolve removed 3 rows and 4 columns
+Presolve time: 0.00s
+Presolved: 49 rows, 36 columns, 190 nonzeros
+Variable types: 22 continuous, 14 integer (14 binary)
+Found heuristic solution: objective 1155.0000000
+
+Root relaxation: objective 8.929029e+02, 31 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0  892.90293    0    3 1155.00000  892.90293  22.7%     -    0s
+H    0     0                    1150.0000000  892.90293  22.4%     -    0s
+H    0     0                    1100.0000000  942.98711  14.3%     -    0s
+     0     0  973.37939    0    6 1100.00000  973.37939  11.5%     -    0s
+H    0     0                    1000.0000000  973.37939  2.66%     -    0s
+     0     0  994.95025    0    7 1000.00000  994.95025  0.50%     -    0s
+     0     0  994.95025    0    6 1000.00000  994.95025  0.50%     -    0s
+
+Cutting planes:
+  Gomory: 6
+  Cover: 2
+  Implied bound: 2
+  MIR: 6
+  StrongCG: 1
+  GUB cover: 2
+
+Explored 1 nodes (44 simplex iterations) in 0.02 seconds (0.00 work units)
+Thread count was 24 (of 24 available processors)
+
+Solution count 4: 1000 1100 1150 1155 
+
+Optimal solution found (tolerance 0.00e+00)
+Best objective 1.000000000000e+03, best bound 1.000000000000e+03, gap 0.0000%
+
+User-callback calls 416, time in user-callback 0.00 sec
+
+Gurobi 13.0.3 (win64, Python) logging started Tue Oct 13 17:15:54 2026
+
+Set parameter LogToConsole to value 0
+Set parameter Username
+Set parameter LicenseID to value 2858111
+Set parameter LogFile to value "C:\Users\andre\Documents\Octavo Semestre\Planeamiento de Sistemas de Potencia\Proyecto 3\Proyecto3_TNEP\codigo\resultados\sensibilidad\logs\milp_garver6_tnep_biseccion.log"
+Academic license - for non-commercial use only - expires 2027-08-27
+Set parameter MIPGap to value 0
+Set parameter TimeLimit to value 3600
+Gurobi Optimizer version 13.0.3 build v13.0.3rc0 (win64 - Windows 11+.0 (26200.2))
+
+CPU model: Intel(R) Core(TM) i7-14650HX, instruction set [SSE2|AVX|AVX2]
+Thread count: 16 physical cores, 24 logical processors, using up to 24 threads
+
+Non-default parameters:
+TimeLimit  3600
+MIPGap  0
+LogToConsole  0
+
+Optimize a model with 52 rows, 40 columns and 200 nonzeros (Min)
+Model fingerprint: 0xd67210de
+Model has 14 linear objective coefficients
+Variable types: 26 continuous, 14 integer (14 binary)
+Coefficient statistics:
+  Matrix range     [6e-01, 2e+01]
+  Objective range  [1e+02, 9e+02]
+  Bounds range     [8e-01, 1e+00]
+  RHS range        [3e-01, 5e+00]
+
+Presolve removed 3 rows and 4 columns
+Presolve time: 0.00s
+Presolved: 49 rows, 36 columns, 190 nonzeros
+Variable types: 22 continuous, 14 integer (14 binary)
+Found heuristic solution: objective 1155.0000000
+
+Root relaxation: objective 8.929685e+02, 31 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0  892.96851    0    3 1155.00000  892.96851  22.7%     -    0s
+H    0     0                    1150.0000000  892.96851  22.4%     -    0s
+H    0     0                    1100.0000000  963.73184  12.4%     -    0s
+     0     0  967.86797    0    6 1100.00000  967.86797  12.0%     -    0s
+H    0     0                    1000.0000000  967.86797  3.21%     -    0s
+     0     0  992.31793    0    7 1000.00000  992.31793  0.77%     -    0s
+     0     0  992.31793    0    6 1000.00000  992.31793  0.77%     -    0s
+
+Cutting planes:
+  Gomory: 6
+  Cover: 2
+  Implied bound: 1
+  MIR: 6
+  StrongCG: 1
+  GUB cover: 2
+
+Explored 1 nodes (45 simplex iterations) in 0.02 seconds (0.00 work units)
+Thread count was 24 (of 24 available processors)
+
+Solution count 4: 1000 1100 1150 1155 
+
+Optimal solution found (tolerance 0.00e+00)
+Best objective 1.000000000000e+03, best bound 1.000000000000e+03, gap 0.0000%
+
+User-callback calls 417, time in user-callback 0.00 sec
+
+Gurobi 13.0.3 (win64, Python) logging started Tue Oct 13 17:15:54 2026
+
+Set parameter LogToConsole to value 0
+Set parameter Username
+Set parameter LicenseID to value 2858111
+Set parameter LogFile to value "C:\Users\andre\Documents\Octavo Semestre\Planeamiento de Sistemas de Potencia\Proyecto 3\Proyecto3_TNEP\codigo\resultados\sensibilidad\logs\milp_garver6_tnep_biseccion.log"
+Academic license - for non-commercial use only - expires 2027-08-27
+Set parameter MIPGap to value 0
+Set parameter TimeLimit to value 3600
+Gurobi Optimizer version 13.0.3 build v13.0.3rc0 (win64 - Windows 11+.0 (26200.2))
+
+CPU model: Intel(R) Core(TM) i7-14650HX, instruction set [SSE2|AVX|AVX2]
+Thread count: 16 physical cores, 24 logical processors, using up to 24 threads
+
+Non-default parameters:
+TimeLimit  3600
+MIPGap  0
+LogToConsole  0
+
+Optimize a model with 52 rows, 40 columns and 200 nonzeros (Min)
+Model fingerprint: 0x62376318
+Model has 14 linear objective coefficients
+Variable types: 26 continuous, 14 integer (14 binary)
+Coefficient statistics:
+  Matrix range     [6e-01, 2e+01]
+  Objective range  [1e+02, 9e+02]
+  Bounds range     [8e-01, 1e+00]
+  RHS range        [3e-01, 5e+00]
+
+Presolve removed 3 rows and 4 columns
+Presolve time: 0.00s
+Presolved: 49 rows, 36 columns, 190 nonzeros
+Variable types: 22 continuous, 14 integer (14 binary)
+Found heuristic solution: objective 1155.0000000
+
+Root relaxation: objective 8.930014e+02, 31 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0  893.00136    0    3 1155.00000  893.00136  22.7%     -    0s
+H    0     0                    1150.0000000  893.00136  22.3%     -    0s
+H    0     0                    1100.0000000  960.10892  12.7%     -    0s
+     0     0  974.49253    0    6 1100.00000  974.49253  11.4%     -    0s
+H    0     0                    1000.0000000  974.49253  2.55%     -    0s
+     0     0 1000.00000    0    7 1000.00000 1000.00000  0.00%     -    0s
+
+Cutting planes:
+  Gomory: 3
+  Cover: 1
+  GUB cover: 1
+
+Explored 1 nodes (45 simplex iterations) in 0.02 seconds (0.00 work units)
+Thread count was 24 (of 24 available processors)
+
+Solution count 4: 1000 1100 1150 1155 
+
+Optimal solution found (tolerance 0.00e+00)
+Best objective 1.000000000000e+03, best bound 1.000000000000e+03, gap 0.0000%
+
+User-callback calls 412, time in user-callback 0.00 sec
+
+Gurobi 13.0.3 (win64, Python) logging started Tue Oct 13 17:15:54 2026
+
+Set parameter LogToConsole to value 0
+Set parameter Username
+Set parameter LicenseID to value 2858111
+Set parameter LogFile to value "C:\Users\andre\Documents\Octavo Semestre\Planeamiento de Sistemas de Potencia\Proyecto 3\Proyecto3_TNEP\codigo\resultados\sensibilidad\logs\milp_garver6_tnep_biseccion.log"
+Academic license - for non-commercial use only - expires 2027-08-27
+Set parameter MIPGap to value 0
+Set parameter TimeLimit to value 3600
+Gurobi Optimizer version 13.0.3 build v13.0.3rc0 (win64 - Windows 11+.0 (26200.2))
+
+CPU model: Intel(R) Core(TM) i7-14650HX, instruction set [SSE2|AVX|AVX2]
+Thread count: 16 physical cores, 24 logical processors, using up to 24 threads
+
+Non-default parameters:
+TimeLimit  3600
+MIPGap  0
+LogToConsole  0
+
+Optimize a model with 52 rows, 40 columns and 200 nonzeros (Min)
+Model fingerprint: 0xc2498dfa
+Model has 14 linear objective coefficients
+Variable types: 26 continuous, 14 integer (14 binary)
+Coefficient statistics:
+  Matrix range     [6e-01, 2e+01]
+  Objective range  [1e+02, 9e+02]
+  Bounds range     [8e-01, 1e+00]
+  RHS range        [3e-01, 5e+00]
+
+Presolve removed 3 rows and 4 columns
+Presolve time: 0.00s
+Presolved: 49 rows, 36 columns, 190 nonzeros
+Variable types: 22 continuous, 14 integer (14 binary)
+Found heuristic solution: objective 1155.0000000
+
+Root relaxation: objective 8.930178e+02, 31 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0  893.01779    0    3 1155.00000  893.01779  22.7%     -    0s
+H    0     0                    1150.0000000  893.01779  22.3%     -    0s
+H    0     0                    1100.0000000  958.27563  12.9%     -    0s
+     0     0  974.67643    0    7 1100.00000  974.67643  11.4%     -    0s
+     0     0 1000.00000    0    7 1100.00000 1000.00000  9.09%     -    0s
+
+Cutting planes:
+  Gomory: 7
+  Cover: 2
+  Implied bound: 1
+  MIR: 3
+  GUB cover: 1
+
+Explored 1 nodes (45 simplex iterations) in 0.02 seconds (0.00 work units)
+Thread count was 24 (of 24 available processors)
+
+Solution count 3: 1100 1150 1155 
+
+Optimal solution found (tolerance 0.00e+00)
+Best objective 1.100000000000e+03, best bound 1.100000000000e+03, gap 0.0000%
+
+User-callback calls 413, time in user-callback 0.00 sec
+
+Gurobi 13.0.3 (win64, Python) logging started Tue Oct 13 17:15:54 2026
+
+Set parameter LogToConsole to value 0
+Set parameter Username
+Set parameter LicenseID to value 2858111
+Set parameter LogFile to value "C:\Users\andre\Documents\Octavo Semestre\Planeamiento de Sistemas de Potencia\Proyecto 3\Proyecto3_TNEP\codigo\resultados\sensibilidad\logs\milp_garver6_tnep_biseccion.log"
+Academic license - for non-commercial use only - expires 2027-08-27
+Set parameter MIPGap to value 0
+Set parameter TimeLimit to value 3600
+Gurobi Optimizer version 13.0.3 build v13.0.3rc0 (win64 - Windows 11+.0 (26200.2))
+
+CPU model: Intel(R) Core(TM) i7-14650HX, instruction set [SSE2|AVX|AVX2]
+Thread count: 16 physical cores, 24 logical processors, using up to 24 threads
+
+Non-default parameters:
+TimeLimit  3600
+MIPGap  0
+LogToConsole  0
+
+Optimize a model with 52 rows, 40 columns and 200 nonzeros (Min)
+Model fingerprint: 0xe50090b5
+Model has 14 linear objective coefficients
+Variable types: 26 continuous, 14 integer (14 binary)
+Coefficient statistics:
+  Matrix range     [6e-01, 2e+01]
+  Objective range  [1e+02, 9e+02]
+  Bounds range     [8e-01, 1e+00]
+  RHS range        [3e-01, 5e+00]
+
+Presolve removed 3 rows and 4 columns
+Presolve time: 0.00s
+Presolved: 49 rows, 36 columns, 190 nonzeros
+Variable types: 22 continuous, 14 integer (14 binary)
+Found heuristic solution: objective 1155.0000000
+
+Root relaxation: objective 8.930096e+02, 31 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0  893.00958    0    3 1155.00000  893.00958  22.7%     -    0s
+H    0     0                    1150.0000000  893.00958  22.3%     -    0s
+H    0     0                    1100.0000000  959.19410  12.8%     -    0s
+H    0     0                    1000.0000000  968.85271  3.11%     -    0s
+     0     0 infeasible    0      1000.00000 1000.00000  0.00%     -    0s
+
+Cutting planes:
+  Gomory: 2
+  Cover: 1
+  Implied bound: 3
+  MIR: 6
+  GUB cover: 1
+
+Explored 1 nodes (44 simplex iterations) in 0.01 seconds (0.00 work units)
+Thread count was 24 (of 24 available processors)
+
+Solution count 4: 1000 1100 1150 1155 
+
+Optimal solution found (tolerance 0.00e+00)
+Best objective 1.000000000000e+03, best bound 1.000000000000e+03, gap 0.0000%
+
+User-callback calls 408, time in user-callback 0.00 sec
+
+Gurobi 13.0.3 (win64, Python) logging started Tue Oct 13 17:15:54 2026
+
+Set parameter LogToConsole to value 0
+Set parameter Username
+Set parameter LicenseID to value 2858111
+Set parameter LogFile to value "C:\Users\andre\Documents\Octavo Semestre\Planeamiento de Sistemas de Potencia\Proyecto 3\Proyecto3_TNEP\codigo\resultados\sensibilidad\logs\milp_garver6_tnep_biseccion.log"
+Academic license - for non-commercial use only - expires 2027-08-27
+Set parameter MIPGap to value 0
+Set parameter TimeLimit to value 3600
+Gurobi Optimizer version 13.0.3 build v13.0.3rc0 (win64 - Windows 11+.0 (26200.2))
+
+CPU model: Intel(R) Core(TM) i7-14650HX, instruction set [SSE2|AVX|AVX2]
+Thread count: 16 physical cores, 24 logical processors, using up to 24 threads
+
+Non-default parameters:
+TimeLimit  3600
+MIPGap  0
+LogToConsole  0
+
+Optimize a model with 52 rows, 40 columns and 200 nonzeros (Min)
+Model fingerprint: 0xd484d736
+Model has 14 linear objective coefficients
+Variable types: 26 continuous, 14 integer (14 binary)
+Coefficient statistics:
+  Matrix range     [6e-01, 2e+01]
+  Objective range  [1e+02, 9e+02]
+  Bounds range     [8e-01, 1e+00]
+  RHS range        [3e-01, 5e+00]
+
+Presolve removed 3 rows and 4 columns
+Presolve time: 0.00s
+Presolved: 49 rows, 36 columns, 190 nonzeros
+Variable types: 22 continuous, 14 integer (14 binary)
+Found heuristic solution: objective 1155.0000000
+
+Root relaxation: objective 8.930137e+02, 31 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0  893.01368    0    3 1155.00000  893.01368  22.7%     -    0s
+H    0     0                    1150.0000000  893.01368  22.3%     -    0s
+H    0     0                    1100.0000000  958.73533  12.8%     -    0s
+     0     0  974.63050    0    7 1100.00000  974.63050  11.4%     -    0s
+H    0     0                    1000.0000000  974.63050  2.54%     -    0s
+     0     0 1000.00000    0    7 1000.00000 1000.00000  0.00%     -    0s
+
+Cutting planes:
+  Gomory: 4
+  Cover: 1
+  GUB cover: 1
+
+Explored 1 nodes (43 simplex iterations) in 0.01 seconds (0.00 work units)
+Thread count was 24 (of 24 available processors)
+
+Solution count 4: 1000 1100 1150 1155 
+
+Optimal solution found (tolerance 0.00e+00)
+Best objective 1.000000000000e+03, best bound 1.000000000000e+03, gap 0.0000%
+
+User-callback calls 410, time in user-callback 0.00 sec
+
+Gurobi 13.0.3 (win64, Python) logging started Tue Oct 13 17:15:54 2026
+
+Set parameter LogToConsole to value 0
+Set parameter Username
+Set parameter LicenseID to value 2858111
+Set parameter LogFile to value "C:\Users\andre\Documents\Octavo Semestre\Planeamiento de Sistemas de Potencia\Proyecto 3\Proyecto3_TNEP\codigo\resultados\sensibilidad\logs\milp_garver6_tnep_biseccion.log"
+Academic license - for non-commercial use only - expires 2027-08-27
+Set parameter MIPGap to value 0
+Set parameter TimeLimit to value 3600
+Gurobi Optimizer version 13.0.3 build v13.0.3rc0 (win64 - Windows 11+.0 (26200.2))
+
+CPU model: Intel(R) Core(TM) i7-14650HX, instruction set [SSE2|AVX|AVX2]
+Thread count: 16 physical cores, 24 logical processors, using up to 24 threads
+
+Non-default parameters:
+TimeLimit  3600
+MIPGap  0
+LogToConsole  0
+
+Optimize a model with 52 rows, 40 columns and 200 nonzeros (Min)
+Model fingerprint: 0xc6b450b6
+Model has 14 linear objective coefficients
+Variable types: 26 continuous, 14 integer (14 binary)
+Coefficient statistics:
+  Matrix range     [6e-01, 2e+01]
+  Objective range  [1e+02, 9e+02]
+  Bounds range     [8e-01, 1e+00]
+  RHS range        [3e-01, 5e+00]
+
+Presolve removed 3 rows and 4 columns
+Presolve time: 0.00s
+Presolved: 49 rows, 36 columns, 190 nonzeros
+Variable types: 22 continuous, 14 integer (14 binary)
+Found heuristic solution: objective 1155.0000000
+
+Root relaxation: objective 8.930157e+02, 31 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0  893.01574    0    3 1155.00000  893.01574  22.7%     -    0s
+H    0     0                    1150.0000000  893.01574  22.3%     -    0s
+H    0     0                    1100.0000000  958.50559  12.9%     -    0s
+     0     0  974.65347    0    6 1100.00000  974.65347  11.4%     -    0s
+     0     0 1000.00000    0    7 1100.00000 1000.00000  9.09%     -    0s
+
+Cutting planes:
+  Gomory: 6
+  Cover: 2
+  Implied bound: 1
+  MIR: 3
+  GUB cover: 1
+
+Explored 1 nodes (45 simplex iterations) in 0.01 seconds (0.00 work units)
+Thread count was 24 (of 24 available processors)
+
+Solution count 3: 1100 1150 1155 
+
+Optimal solution found (tolerance 0.00e+00)
+Best objective 1.100000000000e+03, best bound 1.100000000000e+03, gap 0.0000%
+
+User-callback calls 413, time in user-callback 0.00 sec

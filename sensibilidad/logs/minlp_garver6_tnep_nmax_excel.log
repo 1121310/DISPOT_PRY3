@@ -1,0 +1,70 @@
+
+Gurobi 13.0.3 (win64, Python) logging started Tue Oct 13 17:18:22 2026
+
+Set parameter LogToConsole to value 0
+Set parameter Username
+Set parameter LicenseID to value 2858111
+Set parameter LogFile to value "C:\Users\andre\Documents\Octavo Semestre\Planeamiento de Sistemas de Potencia\Proyecto 3\Proyecto3_TNEP\codigo\resultados\sensibilidad\logs\minlp_garver6_tnep_nmax_excel.log"
+Academic license - for non-commercial use only - expires 2027-08-27
+Set parameter NonConvex to value 2
+Set parameter MIPGap to value 0
+Set parameter TimeLimit to value 3600
+Gurobi Optimizer version 13.0.3 build v13.0.3rc0 (win64 - Windows 11+.0 (26200.2))
+
+CPU model: Intel(R) Core(TM) i7-14650HX, instruction set [SSE2|AVX|AVX2]
+Thread count: 16 physical cores, 24 logical processors, using up to 24 threads
+
+Non-default parameters:
+TimeLimit  3600
+MIPGap  0
+LogToConsole  0
+NonConvex  2
+
+Optimize a model with 24 rows, 24 columns and 66 nonzeros (Min)
+Model fingerprint: 0x879c39f6
+Model has 4 linear objective coefficients
+Model has 4 quadratic constraints
+Variable types: 20 continuous, 4 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 5e+00]
+  QMatrix range    [2e+00, 5e+00]
+  QLMatrix range   [1e+00, 1e+00]
+  Objective range  [1e+02, 3e+02]
+  Bounds range     [8e-01, 5e+00]
+  RHS range        [3e-01, 5e+00]
+
+Presolve removed 6 rows and 7 columns
+Presolve time: 0.00s
+Presolved: 34 rows, 18 columns, 91 nonzeros
+Presolved model has 4 bilinear constraint(s)
+
+Solving non-convex MIQCP to global optimality
+
+Variable types: 14 continuous, 4 integer (0 binary)
+
+Root relaxation: objective 8.787500e+02, 18 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0  878.75000    0    5          -  878.75000      -     -    0s
+     0     0  923.68750    0    7          -  923.68750      -     -    0s
+     0     0 1000.00000    0    1          - 1000.00000      -     -    0s
+H    0     0                    1150.0000000 1000.00000  13.0%     -    0s
+     0     0 1000.00000    0    5 1150.00000 1000.00000  13.0%     -    0s
+     0     0 1000.00000    0    5 1150.00000 1000.00000  13.0%     -    0s
+H    0     0                    1000.0000000 1000.00000  0.00%     -    0s
+     0     0 1000.00000    0    5 1000.00000 1000.00000  0.00%     -    0s
+
+Cutting planes:
+  MIR: 3
+
+Explored 1 nodes (30 simplex iterations) in 0.02 seconds (0.00 work units)
+Thread count was 24 (of 24 available processors)
+
+Solution count 2: 1000 1150 
+
+Optimal solution found (tolerance 0.00e+00)
+Best objective 1.000000000000e+03, best bound 1.000000000000e+03, gap 0.0000%
+
+User-callback calls 332, time in user-callback 0.00 sec
